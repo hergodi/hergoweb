@@ -1,35 +1,20 @@
 import React from "react";
-import LogoHeader from "./../../assets/img/ID-ADMIN-NEGRO.png";
-import { Layout, Button, Icon, Row, Col} from "antd"; //Se importan los componentes de ant desig
+import LogoHeader from './../../assets/img/logo_hergo.jpg';
+import { Layout, Button, Row, Col} from "antd"; //Se importan los componentes de ant desig
 import "./Header.scss";
-import LogoUser from "../../assets/img/user.svg";
+//import LogoUser from "../../assets/img/user.svg";
 import { Link } from "react-router-dom";
 //cerrar sesión
-import { logout } from "../../api/auth";
-import useAuth from "../../hooks/useAuth";
+//import { logout } from "../../api/auth";
+//import useAuth from "../../hooks/useAuth";
 import {QuestionOutlined,CloseCircleFilled, UserOutlined} from '@ant-design/icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import MenuHeader from './../Menu/MenuHeader'
+//import MenuHeader from './../Menu/MenuHeader'
 
 export default function Header({ Logo, history}) {
-  const {user,setUser} = useAuth();
+  //const {user,setUser} = useAuth();
   const { Header } = Layout; //Se importa el header del componente del Layout
   let logo_img = Logo ? <Logo />:<LogoHeader />;
-  const logoutUser = () => {
-
-    logout(user.user.sub);
-    setUser(()=>{ 
-      return {
-        user: null,
-        isLoading: true,
-        idEstado: null,
-        estado: null,
-        idDistrito: null,
-        distrito:null
-      }
-    });
-    history.push("/logout");
-  };
   
   return (
     <Header className="header">
@@ -51,17 +36,7 @@ export default function Header({ Logo, history}) {
             </div>
             
             <div className="menu-top__ayuda">
-                {user.user && 
-                  <>
-                    
-                    {/*<img src={LogoUser} className="user" alt="user" />*/}                
-                    <i class="fa-solid fa-circle-user" style={{color:"#751FF0", padding:"10px"}}/>
-                    {user.user.sub} | 
-                    <Button type="link" onClick={logoutUser}>
-                      <CloseCircleFilled style={{color:"#751FF0", padding:"0px"}}/> Cerrar sesión
-                    </Button>
-                  </>
-                }
+                
             </div>
           </div>
         </Col>

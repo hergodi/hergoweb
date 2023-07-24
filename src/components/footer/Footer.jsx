@@ -1,8 +1,8 @@
 import React from "react";
 import { Layout } from "antd";
 import "./Footer.scss";
-import logoINE from "../../assets/img/INE_logo_footer.png";
-import { VERSION_SISTEMA_TEXTO, VERSION_SISTEMA, FECHA_FINAL, V_LIBERACION} from "../../utils/constanst";
+import logoINE from "../../assets/img/logo_hergo.jpg";
+import { VERSION_SISTEMA_TEXTO, VERSION_SISTEMA, FECHA_FINAL, V_LIBERACION} from './../utils/constanst';
 
 export default function Footer(props) {
   
@@ -27,7 +27,7 @@ export default function Footer(props) {
         Protección de datos | Compatibilidad óptima con Google Chrome
       </div>
       <div className="footer__version">
-        © Derechos Reservados Instituto Nacional Electoral
+        © Derechos Reservados
         {/*<span>{VERSION_SISTEMA_TEXTO} {VERSION_SISTEMA}</span>*/}
         <span>Rev {FECHA_FINAL}</span>
       </div>
