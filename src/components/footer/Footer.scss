@@ -1,0 +1,83 @@
+.footer {
+  display: flex;
+  align-items: center !important;
+  background-color: #333333 !important;
+  /**position: relative !important;
+  bottom: 0 !important;**/
+  width: 100% !important;
+  height: 50px;
+  font-size: 12px !important;
+  font-family: "Roboto", sans-serif !important;
+  color: white !important;
+  
+  &__instituto {
+    text-align: left;
+    width: 100%;
+    svg {
+      height: 30px;
+    }
+    span:first-child {
+      margin-right: 15px;
+    }
+  }
+  &__area {
+    text-align: center;
+    span {
+      display: block;
+    }
+    span:last-child {
+      color: #333;
+    }
+    width: 100%;
+  }
+  &__area2 {
+    text-align: center;
+    color:transparent;
+  }
+  &__logo {
+    float: left;
+    width: 158px;
+    height: 47px;
+    margin-right: 20px;
+  }
+  &__version {
+    width: 100%;
+    text-align: right;
+    span:last-child {
+      color: #333;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+}
+@media (max-width: 414px) {
+  .ant-layout-header {
+    padding: 0 20px !important;
+  }
+}
+@media (max-width: 666px) {
+  .ant-layout-footer {
+    padding: 0px 10px !important;
+  }
+  .footer {
+    height: 58px !important;
+    display: table;
+    &__version {
+      width: 100%;
+      display: grid;
+      font-size: xx-small;
+    }
+    &__area {
+      width: 100%;
+      font-size: xx-small;
+      text-align: right;
+      padding-top: 10px;
+    }
+    &__instituto {
+      width: 100%;
+      padding-top: 20px;
+    }
+  }
+}
