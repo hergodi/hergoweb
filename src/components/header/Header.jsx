@@ -22,7 +22,7 @@ export default function Header({ Logo, history}) {
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
           <div className="menu-top">
             <div className="menu-top__logo">
-              <Link to={`/home`}>
+              <Link to={`/inicio`}>
                 <img src={LogoHeader} alt="logo ADMIN" className="logo" />
               </Link>
             </div>
