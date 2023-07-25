@@ -1,11 +1,8 @@
 import { Layout } from "antd";
 import "./Footer.scss";
 import logoINE from "../../assets/img/logo_hergo.jpg";
-<<<<<<< HEAD
 import {FECHA_FINAL} from './../utils/constanst';
-=======
-import {  FECHA_FINAL} from './../utils/constanst';
->>>>>>> d7d7a3a962cb013245f0d8b678d23dd76f264413
+
 
 export default function Footer(props) {
   

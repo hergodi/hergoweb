@@ -3,7 +3,7 @@
 import LayoutMain from '../../layouts/LayoutMain';
 import Inicio from '../pages/inicio/Inicio';
 import Contactos from '../pages/contacto/Contactos';
-//Se crea un array con todas las rutas a utilizar 
+// Se crea un array con todas las rutas a utilizar 
 const routes = [
     {
         path: "/",
@@ -24,5 +24,6 @@ const routes = [
     }
 
 ];
+
 
 export default routes;
