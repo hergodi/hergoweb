@@ -11,6 +11,7 @@ import Footer from './../components/footer/Footer';
 //Logos
 import { Route, Switch} from 'react-router-dom';
 import { useEffect } from 'react';
+import Inicio from '../components/pages/inicio/Inicio';
 
 //import MenuAdminPartidos from '../components/Menu/MenuAdminPartidos'
 //import MenuHeader from '../components/Menu/MenuHeader'
@@ -29,8 +30,10 @@ export default function LayoutMain(props) {
             <Layout>
                 <Layout className="layout">
                     <Content className="content">
-                        {/**Contenido, se iteran las rutas para poder navegar entre ellas */}
-                        <LoadRoutes routes={routes} />
+                        {/**Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} />*/}
+                        <Switch>
+                            <Route path="/" render= { Inicio }/>
+                        </Switch>
                     </Content>
                 </Layout>
             </Layout>
@@ -56,19 +59,3 @@ function LoadRoutes({ routes }) {
         </Switch>
     );
 }
-
-//Componente utilizado para refrescar token
-/*const RefrescaToken = ({history}) => {
-    const { setUser } = useAuth(); 
-    console.log('Se revisa token');
-    useEffect(()=>{
-        const jwt = localStorage.getItem(ACCESS_TOKEN);
-        refreshAccessTokenApi(jwt);
-        if(!getAccessTokenApi()) {
-            history.push("/");
-            setUser({});
-        }
-    })
-
-    return <></>
-}*/
