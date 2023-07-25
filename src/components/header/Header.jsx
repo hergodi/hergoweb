@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import MenuHeader from './../Menu/MenuHeader'
 
-export default function Header({ Logo, history}) {
+export default function Header() {
   //const {user,setUser} = useAuth();
   const { Header } = Layout; //Se importa el header del componente del Layout
-  let logo_img = Logo ? <Logo />:<LogoHeader />;
+
   
   return (
     <Header className="header">
@@ -26,13 +26,6 @@ export default function Header({ Logo, history}) {
               </Link>
             </div>
             
-            <div className="menu-top__menu" style={{textAlign: "-webkit-right"}}>
-              {history.location.state ? 
-                  <MenuHeader history={history}/>
-                :
-                  undefined
-              }
-            </div>
             
             <div className="menu-top__ayuda">
                 <div className="li-menu">
