@@ -1,8 +1,7 @@
-import React from "react";
 import { Layout } from "antd";
 import "./Footer.scss";
 import logoINE from "../../assets/img/logo_hergo.jpg";
-import { VERSION_SISTEMA_TEXTO, VERSION_SISTEMA, FECHA_FINAL, V_LIBERACION} from './../utils/constanst';
+import {FECHA_FINAL} from './../utils/constanst';
 
 export default function Footer(props) {
   
