@@ -1,14 +1,13 @@
-import React from "react";
 import LogoHeader from './../../assets/img/logo_hergo.jpg';
-import { Layout, Button, Row, Col} from "antd"; //Se importan los componentes de ant desig
+import { Layout, Row, Col} from "antd"; //Se importan los componentes de ant desig
 import "./Header.scss";
 //import LogoUser from "../../assets/img/user.svg";
 import { Link } from "react-router-dom";
 //cerrar sesión
 //import { logout } from "../../api/auth";
 //import useAuth from "../../hooks/useAuth";
-import {QuestionOutlined,CloseCircleFilled, UserOutlined} from '@ant-design/icons';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {QuestionOutlined,CloseCircleFilled, UserOutlined} from '@ant-design/icons';
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import MenuHeader from './../Menu/MenuHeader'
 
 export default function Header({ Logo, history}) {
@@ -36,7 +35,9 @@ export default function Header({ Logo, history}) {
             </div>
             
             <div className="menu-top__ayuda">
-                
+                <div className="li-menu">
+                  
+                </div>
             </div>
           </div>
         </Col>
