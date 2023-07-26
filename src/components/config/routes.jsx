@@ -1,28 +1,15 @@
-//Layout
-//Se creo un Layout principal para que solo se manden a llamar las paginas y muestren su contenido
-import LayoutMain from '../../layouts/LayoutMain';
-import Inicio from '../pages/inicio/Inicio';
-import Contactos from '../pages/contacto/Contactos';
-//Se crea un array con todas las rutas a utilizar 
-const routes = [
-    {
-        path: "/",
-        component: LayoutMain,
-        exact: false,
-        routes: [
-            {
-                path: ["/inicio"],
-                component: Inicio,
-                exact: true
-            },
-            {
-                path: ["/contactos"],
-                component: Contactos,
-                exact: true
-            },
-        ]
-    }
 
-];
+import { Routes, Route } from 'react-router-dom'
+import Inicio from '../pages/inicio/Inicio'
+import Contactos from '../pages/contacto/Contactos'
 
-export default routes;
+const RoutesIndex = () => {
+  return (
+    <Routes>
+        <Route path='/' element={<Inicio />} />
+        <Route path='/contacto' element={<Contactos />} />
+    </Routes>
+  )
+}
+
+export default RoutesIndex

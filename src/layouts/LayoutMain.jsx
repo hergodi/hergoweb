@@ -1,24 +1,21 @@
-import React from 'react'
+
 import { Layout } from "antd";
 //Para refrescar el token
 //import { refreshAccessTokenApi, getAccessTokenApi } from "../api/auth";
-import { ACCESS_TOKEN } from './../components/utils/constanst';
 
 //Componentes 
 import Header from './../components/header/Header';
 import Footer from './../components/footer/Footer';
 
 //Logos
-import { Route, Switch} from 'react-router-dom';
-import { useEffect } from 'react';
+import { Route,Routes} from 'react-router-dom';
 import Inicio from '../components/pages/inicio/Inicio';
 
 //import MenuAdminPartidos from '../components/Menu/MenuAdminPartidos'
 //import MenuHeader from '../components/Menu/MenuHeader'
 
-export default function LayoutMain(props) {
+export default function LayoutMain() {
 
-    const { routes, history} = props;
     const { Content } = Layout; //Se obtiene el componente hijo de Layout
     
     //Verifica si el usuario existe si no lo redirecciona al login
@@ -31,9 +28,9 @@ export default function LayoutMain(props) {
                 <Layout className="layout">
                     <Content className="content">
                         {/**Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} />*/}
-                        <Switch>
+                        <Routes>
                             <Route path="/" render= { Inicio }/>
-                        </Switch>
+                        </Routes>
                     </Content>
                 </Layout>
             </Layout>
@@ -42,20 +39,4 @@ export default function LayoutMain(props) {
         </Layout> 
     )
 
-}
-
-//Función que itera las rutas individualmente 
-function LoadRoutes({ routes }) {
-    return (
-        <Switch>
-            {routes.map((route, index) => (
-                <Route
-                    key={index}
-                    path={route.path}
-                    exact={route.exact}
-                    component={route.component}
-                />
-            ))}
-        </Switch>
-    );
 }
