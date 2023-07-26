@@ -11,6 +11,7 @@ import Footer from './../components/footer/Footer';
 import { Route,Routes, BrowserRouter} from 'react-router-dom';
 import Inicio from '../components/pages/inicio/Inicio';
 import Contactos from "../components/pages/contacto/Contactos";
+import Nosotros from "../components/pages/nosotros/Nosotros";
 
 //import MenuAdminPartidos from '../components/Menu/MenuAdminPartidos'
 //import MenuHeader from '../components/Menu/MenuHeader'
@@ -33,6 +34,7 @@ export default function LayoutMain() {
                         <Routes>
                             <Route index element= {<Inicio/>}/>
                             <Route path="/contacto" element={<Contactos/>} />
+                            <Route path="/nosotros" element={<Nosotros/>} />
                         </Routes>
                     </Content>
                 </Layout>

@@ -24,7 +24,7 @@ export default function Header() {
             <div className="menu-top__ayuda">
                 <div className="li-menu">
                 <Link to={'/'} className='link-1'>Inicio</Link>
-                <Link to={'/nosotros'} className='link-2'>nosotros</Link>
+                <Link to={'/nosotros'} className='link-2'>Nosotros</Link>
                 <Link to={'/contacto'} className='link-3'>Contacto</Link>
                 <Link to={'/services'} className='link-4'>Servicios</Link>
                 </div>
