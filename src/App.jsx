@@ -7,9 +7,10 @@ function App() {
   return (
     <>
     
-    <BrowserRouter>
-       <LayoutMain />
-       <RoutesIndex />
+      <BrowserRouter>
+        <LayoutMain>
+          <RoutesIndex />
+        </LayoutMain>   
       </BrowserRouter>
     </>
         

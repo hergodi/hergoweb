@@ -8,7 +8,7 @@ import Header from './../components/header/Header';
 import Footer from './../components/footer/Footer';
 
 //Logos
-import { Route,Routes} from 'react-router-dom';
+import { Route,Routes, BrowserRouter} from 'react-router-dom';
 import Inicio from '../components/pages/inicio/Inicio';
 import Contactos from "../components/pages/contacto/Contactos";
 
@@ -30,8 +30,8 @@ export default function LayoutMain() {
                     <Content className="content">
                         {/**Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} />*/}
                         <Routes>
-                            <Route path="/" element= {<Inicio />}/>
-                            <Route path="/contacto" element={<Contactos />} />
+                            <Route index element= {<Inicio/>}/>
+                            <Route path="/contacto" element={<Contactos/>} />
                         </Routes>
                     </Content>
                 </Layout>
