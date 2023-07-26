@@ -8,7 +8,7 @@ import Header from './../components/header/Header';
 import Footer from './../components/footer/Footer';
 
 //Logos
-import { Route,Routes, BrowserRouter} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import Inicio from '../components/pages/inicio/Inicio';
 import Contactos from "../components/pages/contacto/Contactos";
 import Nosotros from "../components/pages/nosotros/Nosotros";

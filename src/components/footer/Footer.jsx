@@ -4,7 +4,7 @@ import logoINE from "../../assets/img/logo_hergo.jpg";
 import {FECHA_FINAL} from './../utils/constanst';
 
 
-export default function Footer(props) {
+export default function Footer() {
   
   const { Footer } = Layout;
 
