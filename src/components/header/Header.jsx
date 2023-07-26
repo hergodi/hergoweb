@@ -3,6 +3,7 @@ import { Layout, Row, Col} from "antd"; //Se importan los componentes de ant des
 import "./Header.scss";
 import { Link } from "react-router-dom";
 
+
 export default function Header() {
   //const {user,setUser} = useAuth();
   const { Header } = Layout; //Se importa el header del componente del Layout
@@ -22,7 +23,10 @@ export default function Header() {
             
             <div className="menu-top__ayuda">
                 <div className="li-menu">
-                <Link to="/">Inicio</Link>
+                <Link to={'/'} className='link-1'>Inicio</Link>
+                <Link to={'/nosotros'} className='link-2'>nosotros</Link>
+                <Link to={'/contacto'} className='link-3'>Contacto</Link>
+                <Link to={'/services'} className='link-4'>Servicios</Link>
                 </div>
             </div>
           </div>

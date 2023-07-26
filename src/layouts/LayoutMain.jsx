@@ -27,6 +27,7 @@ export default function LayoutMain() {
             <Header history={history}/>
             <Layout>
                 <Layout className="layout">
+                    
                     <Content className="content">
                         {/**Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} />*/}
                         <Routes>

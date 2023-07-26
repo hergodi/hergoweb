@@ -126,5 +126,27 @@
 }
 
 .li-menu{
+  justify-content: center;
+  align-items: center;
   display: flex;
+}
+
+.link-1{
+  position: relative;
+  right: 10px;
+}
+
+.link-2{
+  margin: 0;
+  padding: 0;
+}
+
+.link-3{
+  position: relative;
+  left: 10px;
+}
+
+.link-4{
+  position: relative;
+  left: 18px;
 }
