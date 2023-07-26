@@ -5,20 +5,16 @@ import RoutesIndex from './components/config/routes';
  
 function App() {
   return (
-        <LoginLayaout/>
-      
-  )
-}
-
-const LoginLayaout = () => {
-  return(
     <>
-      <BrowserRouter>
+    
+    <BrowserRouter>
        <LayoutMain />
        <RoutesIndex />
       </BrowserRouter>
     </>
-   )
+        
+      
+  )
 }
  
 export default App;
