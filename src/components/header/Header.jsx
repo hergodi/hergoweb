@@ -2,7 +2,6 @@ import LogoHeader from './../../assets/img/logo_hergo.jpg';
 import { Layout, Row, Col} from "antd"; //Se importan los componentes de ant desig
 import "./Header.scss";
 import { Link } from "react-router-dom";
-import Inicio from '../pages/inicio/Inicio';
 
 export default function Header() {
   //const {user,setUser} = useAuth();
@@ -23,7 +22,7 @@ export default function Header() {
             
             <div className="menu-top__ayuda">
                 <div className="li-menu">
-                  <a href={<Inicio />}>Inicio</a>
+                <Link to="/">Inicio</Link>
                 </div>
             </div>
           </div>
