@@ -6,6 +6,7 @@ import c1 from '../../../assets/img/carrusel/Carrusel-1.jpg'
 import c2 from '../../../assets/img/carrusel/Carrusel-2.jpg'
 import c3 from '../../../assets/img/carrusel/Carrusel-3.jpg'
 import Link from 'antd/es/typography/Link'
+import FormContacto from '../../formContacto/FormContacto'
 
 const Inicio = () => {
   return (
@@ -30,6 +31,7 @@ const Inicio = () => {
           </p>
         </div>
       </section>
+
       <section id='section-2'>
         <div className='text-2'>
           <h1 className='experiencia'>Nuestra experiencia</h1>
@@ -60,6 +62,7 @@ const Inicio = () => {
           <p className='p-ideas'>Contáctanos y uno de nuestros expertos estará encantado de asesorarte y ofrecerte un presupuesto sin compromiso.</p>
         </div>
       </section>
+
       <section id='section-3'>
         <div className='text-4'>
           <h2 className='confianza'>
@@ -78,6 +81,7 @@ const Inicio = () => {
           <img src={imgSecition} alt='' className='img-section4' />
         </div>
       </section>
+      <FormContacto />
     </>
   )
 }

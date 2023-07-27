@@ -179,3 +179,62 @@
     left: 150px;
     top: 10px;
 }
+
+.h-form{
+    font-size: 25px
+}
+
+#form{
+    box-sizing: border-box;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    background-color: aqua;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-inp{
+    position: relative;
+    right: 25px;
+}
+
+
+.nombre{
+    height: 30px;
+    width: 600px;
+}
+
+#email{
+    position: relative;
+    top: 21px;
+    right: 190px;
+    text-align: center;
+}
+
+
+#Telefono{
+    position: relative;
+    left: 150px;
+    bottom: 9px;
+}
+
+#type-phone{
+    height: 30px;
+    width: 250px
+}
+
+.typeData{
+    width: 240px;
+    height: 30px;
+}
