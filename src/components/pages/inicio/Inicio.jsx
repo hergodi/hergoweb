@@ -5,6 +5,7 @@ import imgSecition from '../../../assets/img/IMG_SECTION_4.jpg'
 import c1 from '../../../assets/img/carrusel/Carrusel-1.jpg'
 import c2 from '../../../assets/img/carrusel/Carrusel-2.jpg'
 import c3 from '../../../assets/img/carrusel/Carrusel-3.jpg'
+import Link from 'antd/es/typography/Link'
 
 const Inicio = () => {
   return (
@@ -61,14 +62,19 @@ const Inicio = () => {
       </section>
       <section id='section-3'>
         <div className='text-4'>
-          <h2>
+          <h2 className='confianza'>
             ¡Confía en Hergo!
           </h2>
-          <p>para convertir tus sueños en realidad y crear ambientes que te enamoren! Estamos
+          <p className='p-confianza'>para convertir tus sueños en realidad y crear ambientes que te enamoren! Estamos
             ansiosos por colaborar contigo en tu próximo proyecto de canceles y vidrios.
           </p>
+          <div className='bottom-Contactos'>
+            <Link to='/contacto'>
+              <button className='button-contacto'>Contactanós</button>
+            </Link>
+          </div>
         </div>
-        <div className=''>
+        <div className='img-section'>
           <img src={imgSecition} alt='' className='img-section4' />
         </div>
       </section>

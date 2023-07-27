@@ -136,7 +136,46 @@
     font-size: 19px;
 }
 
+.text-4{
+    align-items: center;
+    height: 100px;
+    position: relative;
+    left: 150px;
+}
+
+
+.confianza{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    align-items: center;
+}
+
+.p-confianza{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+}
+
 .img-section4{
-    width: 500px;
+    margin-bottom: 10px;
+    width: 300px;
     height: auto;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
   }
+
+#section-3{
+    width: 450px;
+    height: 450px;
+}
+
+.button-contacto{
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
