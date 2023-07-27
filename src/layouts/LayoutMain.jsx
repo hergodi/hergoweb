@@ -30,10 +30,10 @@ export default function LayoutMain () {
           <Content className='content'>
             {/** Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} /> */}
             <Routes>
-              <Route index element={<Inicio />} />
-              <Route path='/contacto' element={<Contactos />} />
-              <Route path='/nosotros' element={<Nosotros />} />
-              <Route path='//services' element={<Services />} />
+                <Route path='hergoweb/' index element={<Inicio />} />
+                <Route path='hergoweb/contacto' element={<Contactos />} />
+                <Route path='hergoweb/nosotros' element={<Nosotros />} />
+                <Route path='hergoweb/services' element={<Services />} />
             </Routes>
           </Content>
         </Layout>
