@@ -1,19 +1,16 @@
-import { BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'
 import 'moment/locale/es'
-import LayoutMain from './layouts/LayoutMain';
- 
-function App() {
+import LayoutMain from './layouts/LayoutMain'
+
+function App () {
   return (
     <>
-    
-
-    <BrowserRouter>
-       <LayoutMain />
+      <BrowserRouter>
+        <LayoutMain />
       </BrowserRouter>
     </>
-        
-    
+
   )
 }
- 
-export default App;
+
+export default App

@@ -163,29 +163,7 @@ code {
 }
 
 /*Se ajustan estilos para los header de acuerdo a diseño*/
-h1, h2, h3, h4, h5 {
-  font-weight: 700;
-}
 
-h1 {
-  font-size: 24px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-h4 {
-  font-size: 16px;
-}
-
-h5 {
-  font-size: 14px;
-}
 
 label {
   font-weight: 600;
@@ -301,9 +279,6 @@ ul.lista li:before {
   border-color: #999;
 }
 
-.ant-layout h1 {
-  margin-bottom: 1em;
-}
 
 .ant-layout-sider-trigger {
   border-radius: 50%;
@@ -1013,9 +988,6 @@ ul.lista li:before {
     color: #ffffff;
   }
 
-  .menu-top__titulo h1 {
-    font-size: 21px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1067,9 +1039,7 @@ ul.lista li:before {
     display: none !important;
   }
 
-  .menu-top__titulo h1 {
-    font-size: 21px;
-  }
+
   
 }
 
@@ -1119,9 +1089,7 @@ ul.lista li:before {
     display: none !important;
   }
 
-  .menu-top__titulo h1 {
-    font-size: 21px;
-  }
+ 
 
   .ant-select{
     width: 100%;
@@ -1170,9 +1138,7 @@ ul.lista li:before {
     display: none !important;
   }
 
-  .menu-top__titulo h1 {
-    font-size: 21px;
-  }
+
 
   .ant-select{
     width: 100%;
