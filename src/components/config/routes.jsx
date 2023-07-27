@@ -7,10 +7,10 @@ import Services from '../pages/servicios/Services'
 const RoutesIndex = () => {
   return (
     <Routes>
-      <Route path='/' element={<Inicio />} />
-      <Route path='/contacto' element={<Contactos />} />
-      <Route path='/nosotros' element={<Nosotros />} />
-      <Route path='/services' element={<Services />} />
+      <Route path='hergoweb/' element={<Inicio />} />
+      <Route path='hergoweb/contacto' element={<Contactos />} />
+      <Route path='hergoweb/nosotros' element={<Nosotros />} />
+      <Route path='hergoweb/services' element={<Services />} />
     </Routes>
   )
 }
