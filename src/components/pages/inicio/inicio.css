@@ -186,10 +186,8 @@
 
 #form{
     box-sizing: border-box;
-    min-height: 100px;
-    overflow: hidden;
+    height: 700px;
     position: relative;
-    margin: auto;
     background-color: aqua;
     margin-bottom: 10px;
     justify-content: center;
@@ -205,8 +203,13 @@
 }
 
 .name-inp{
+    margin-bottom: 25px;
     position: relative;
     right: 25px;
+    height: 30px;
+    width: 600px;
+    position: relative;
+    left: 370px;
 }
 
 
@@ -217,16 +220,25 @@
 
 #email{
     position: relative;
-    top: 21px;
-    right: 190px;
+    left: 370px;
+    top: 1px;
     text-align: center;
+    width: 240px;
+    height: 30px;
+}
+
+#type-email{
+    height: 30px;
+    width: 250px
 }
 
 
 #Telefono{
     position: relative;
-    left: 150px;
-    bottom: 9px;
+    left: 720px;
+    bottom: 28px;
+    width: 240px;
+    height: 30px;
 }
 
 #type-phone{
@@ -234,7 +246,26 @@
     width: 250px
 }
 
-.typeData{
+
+#asunto{
     width: 240px;
     height: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 370px;
+    text-align: center;
+
+}
+
+
+#type-asunto{
+    height: 30px;
+    width: 600px;
+}
+
+.asunto{
+    text-align: center;
+    position: relative;
+    left: 186px;
 }

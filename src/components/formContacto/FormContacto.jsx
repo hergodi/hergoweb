@@ -23,9 +23,13 @@ const FormContacto = () => {
             <div className='Asunto' />
           </div>
           <div id='asunto'>
-            <label htmlFor='' className='Telefono'>Asunto: </label>
+            <label htmlFor='' className='asunto'>Asunto: </label>
             <input type='text' className='typeData' id='type-asunto' />
           </div>
+        </div>
+        <div className='message'>
+          <label htmlFor='' className='asunto'>Asunto: </label>
+          <input type='text' className='typeData' id='type-asunto' />
         </div>
       </section>
     </>
