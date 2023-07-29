@@ -186,12 +186,12 @@
 
 #form{
     box-sizing: border-box;
-    height: 580px;
     position: relative;
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: max-content;
 }
 
 .login-form{
