@@ -185,6 +185,7 @@
 }
 
 #form{
+    height: auto;
     box-sizing: border-box;
     position: relative;
     margin-bottom: 10px;
@@ -193,6 +194,16 @@
     text-align: center;
     width: max-content;
 }
+
+
+.login-form{
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
 
 .login-form{
     text-align: center;
@@ -229,4 +240,45 @@
     position: relative;
     left: 420px;
     bottom: 140px;
+}
+
+#photo{
+    height: auto;
+    width: auto;
+}
+
+#imgsHover{
+    display: flex;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+}
+
+#imgsHover :hover{
+    transform: scale(1.2); 
+    -webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+.img-1{
+    margin-left: 10px;
+}
+
+
+.width-1{
+    width: 250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    overflow: hidden;
+    transition:  transform 0.3s;
+}
+
+.materiales{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 }
