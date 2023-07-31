@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 .corrusel-react{
     margin-bottom: 100px;
     max-width: 50%;
@@ -245,14 +250,23 @@
 #photo{
     height: auto;
     width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #imgsHover{
+    position: relative;
+    left: 10px;
     display: flex;
     -webkit-transition:all .9s ease; /* Safari y Chrome */
     -moz-transition:all .9s ease; /* Firefox */
     -o-transition:all .9s ease; /* IE 9 */
     -ms-transition:all .9s ease; /* Opera */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 20px;
 }
 
 #imgsHover :hover{
@@ -265,7 +279,7 @@ transform:scale(1.25);
 }
 
 .img-1{
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 
@@ -275,10 +289,22 @@ transform:scale(1.25);
     height: 150px;
     border-radius: 20%;
     overflow: hidden;
-    transition:  transform 0.3s;
+    transition:  transform 0.5s;
+    margin: 15px, 15px, 15px, 15px;
 }
 
 .materiales{
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 320px;
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
