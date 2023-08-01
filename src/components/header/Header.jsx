@@ -13,7 +13,7 @@ export default function Header () {
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
           <div className='menu-top'>
             <div className='menu-top__logo'>
-              <Link to='/'>
+              <Link to='hergoweb/'>
                 <img src={LogoHeader} alt='logo ADMIN' className='logo' />
               </Link>
             </div>

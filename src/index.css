@@ -541,7 +541,7 @@ ul.lista li:before {
 .content.ant-layout-content {
   border: 0px solid #999;
   background: #F3EEF6 0% 0% no-repeat padding-box;
-  padding: 0px;
+  padding-top: 50px;
 }
 
 .content-btn-menu-reportes {

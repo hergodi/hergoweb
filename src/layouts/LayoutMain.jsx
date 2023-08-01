@@ -25,7 +25,6 @@ export default function LayoutMain () {
     <Layout style={{ minHeight: '100vh' }}>
       {/** Se importa el header y se le envía el logo correspondiente */}
       <Header history={history} />
-      <Layout>
         <Layout className='layout'>
           <Content className='content'>
             {/** Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} /> */}
@@ -37,7 +36,6 @@ export default function LayoutMain () {
             </Routes>
           </Content>
         </Layout>
-      </Layout>
       {/** Footer con la versión del sistema */}
       <Footer version='Versión 1.0' anio='2022' />
     </Layout>
