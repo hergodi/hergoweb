@@ -87,7 +87,9 @@ const Inicio = () => {
       </section>
       <FormContacto />
       <section id='photo'>
-        <h4 className='materiales'>FABRICAMOS CON LOS MEJORES MATERIALES</h4>
+        <div id='txtHover'>
+          <h4 className='materiales'>FABRICAMOS CON LOS MEJORES MATERIALES</h4>
+        </div>
         <div id='imgsHover'>
           <div className='img-1'> <img src={M1} alt='' className='width-materiales-logo' /></div>
           <div className='img-1'> <img src={M2} alt='' className='width-materiales-logo' /></div>

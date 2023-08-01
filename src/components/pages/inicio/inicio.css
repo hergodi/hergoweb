@@ -253,6 +253,7 @@ body{
     width: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #imgsHover{
@@ -264,6 +265,15 @@ body{
     justify-content: center;
     margin: auto;
     padding: auto;
+    margin-bottom: 20px;
+}
+
+#txtHover{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -308,12 +318,8 @@ body{
     width: auto;
     height: auto;
     position: relative;
-    left: 320px;
     display: flex;
-    max-width: 700px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    width: 100%;
 }
 
 #contact-section{
