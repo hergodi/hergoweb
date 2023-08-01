@@ -5,6 +5,9 @@ import imgSecition from '../../../assets/img/IMG_SECTION_4.jpg'
 import c1 from '../../../assets/img/carrusel/Carrusel-1.jpg'
 import c2 from '../../../assets/img/carrusel/Carrusel-2.jpg'
 import c3 from '../../../assets/img/carrusel/Carrusel-3.jpg'
+import M1 from '../../../assets/img/logos_materiales/Cuprum-logo.png'
+import M2 from '../../../assets/img/logos_materiales/vitro-logo.png'
+import M3 from '../../../assets/img/logos_materiales/saint-logo.png'
 import Link from 'antd/es/typography/Link'
 import FormContacto from '../../formContacto/FormContacto'
 import { Col } from 'antd'
@@ -86,10 +89,9 @@ const Inicio = () => {
       <section id='photo'>
         <h4 className='materiales'>FABRICAMOS CON LOS MEJORES MATERIALES</h4>
         <div id='imgsHover'>
-          <div className='img-1'> <img src={c1} alt='' className='width-1' /></div>
-          <div className='img-1'> <img src={c1} alt='' className='width-1' /></div>
-          <div className='img-1'> <img src={c1} alt='' className='width-1' /></div>
-          <div className='img-1'> <img src={c1} alt='' className='width-1' /></div>
+          <div className='img-1'> <img src={M1} alt='' className='width-materiales-logo' /></div>
+          <div className='img-1'> <img src={M2} alt='' className='width-materiales-logo' /></div>
+          <div className='img-1'> <img src={M3} alt='' className='width-materiales-logo' /></div>
         </div>
       </section>
       <section id='contact-section'>

@@ -197,12 +197,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: max-content;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 
 .login-form{
-    background-color: aquamarine;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -288,6 +289,15 @@ body{
     transition:  transform 0.5s;
     margin: auto;
     padding: auto;
+}
+
+.width-materiales-logo{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    transition:  transform 0.5s;
+    margin: auto;
+    padding: 20px;
 }
 
 .materiales{
