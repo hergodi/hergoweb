@@ -30,15 +30,13 @@ const Inicio = () => {
       <Row id='Row-center'>
         <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className='center-text' />
         <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className='center-text'>
-          <div className='container-dad'>
             <h1 className='Seccion-titulos'>¡Bienvenido a nuestro sitio web especializado
               en construcción, diseño e
               instalación de canceles y vidrios!
             </h1>
-          </div>
         </Col>
         <Col xs={16} sm={16} md={16} lg={16} xl={16} xxl={16} className='center-text'>
-          <p>
+          <p id='p-1'>
             En Hergo, somos apasionados por crear soluciones a la medida para embellecer y mejorar tus espacios. Ya sea que estés buscando darle un toque
             elegante y moderno a tu hogar, o necesitas soluciones funcionales y seguras para tu negocio,
             estamos aquí para ayudarte.

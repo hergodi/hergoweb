@@ -25,11 +25,10 @@ body{
 #Row-center{
     justify-content: center;
     text-align: center;
-    align-items: center;
 }
 
 .Seccion-titulos{
-    width: 400px;
+    width: 180%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -376,8 +375,15 @@ body{
 }
 
 .center-text{
+    padding-left: 20px;
     position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#p-1{
+    font-family: 'Roboto';
+    font-size: large;
+    text-align: justify;
 }
