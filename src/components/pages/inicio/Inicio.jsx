@@ -10,31 +10,48 @@ import M2 from '../../../assets/img/logos_materiales/vitro-logo.png'
 import M3 from '../../../assets/img/logos_materiales/saint-logo.png'
 import Link from 'antd/es/typography/Link'
 import FormContacto from '../../formContacto/FormContacto'
-import { Col } from 'antd'
+import { Col, Row } from 'antd'
 
 const Inicio = () => {
   return (
-    <>
-      <AwesomeSlider className='corrusel-react'>
-        <div data-src={c1} />
-        <div data-src={c2} />
-        <div data-src={c3} />
-      </AwesomeSlider>
-      <section id='seccion-inicio'>
+    <div className='div-inicio'>
+      
+      {/*<section id='seccion-inicio'>
         <div className='container-dad'>
-          <h1 className='Seccion-titulos'>¡Bienvenido a nuestro sitio web especializado
-            en construcción, diseño e
-            instalación de canceles y vidrios!
-          </h1>
+          
         </div>
         <div className='parrafo-compartido'>
-          <p>
-            En Hergo, somos apasionados por crear soluciones a la medida para embellecer y mejorar tus espacios. Ya sea que estés buscando darle un toque
-            elegante y moderno a tu hogar, o necesitas soluciones funcionales y seguras para tu negocio,
-            estamos aquí para ayudarte.
-          </p>
+          
         </div>
-      </section>
+  </section>*/}
+      <Row>
+        <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ alignContent: 'center' }}>
+            <AwesomeSlider className='corrusel-react'>
+              <div data-src={c1} />
+              <div data-src={c2} />
+              <div data-src={c3} />
+            </AwesomeSlider>
+        </Col>
+      </Row>
+
+      <Row>
+      <Col xs={2} sm={2} md={2} lg={2} xl={2} xxl={2} />
+        <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} style={{ alignContent: 'center' }}>
+          <div className='container-dad'>
+            <h1 className='Seccion-titulos'>¡Bienvenido a nuestro sitio web especializado
+                en construcción, diseño e
+                instalación de canceles y vidrios!
+              </h1>
+          </div>
+        </Col>
+        <Col xs={14} sm={14} md={14} lg={14} xl={14} xxl={14} style={{ alignContent: 'center' }}>
+            <p>
+              En Hergo, somos apasionados por crear soluciones a la medida para embellecer y mejorar tus espacios. Ya sea que estés buscando darle un toque
+              elegante y moderno a tu hogar, o necesitas soluciones funcionales y seguras para tu negocio,
+              estamos aquí para ayudarte.
+            </p>
+        </Col>
+      </Row>
 
       <section id='section-2'>
         <div className='text-2'>
@@ -128,7 +145,7 @@ const Inicio = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 
