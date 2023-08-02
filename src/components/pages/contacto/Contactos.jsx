@@ -1,36 +1,34 @@
-import FormContacto from "../../formContacto/FormContacto"
-import React from 'react';
-import { GoogleMap, Marker, InfoWindow, LoadScript } from '@react-google-maps/api';
-
+import FormContacto from '../../formContacto/FormContacto'
+import React from 'react'
+import { GoogleMap, Marker, InfoWindow, LoadScript } from '@react-google-maps/api'
 
 const Contactos = () => {
-
   const mapStyles = {
     height: '400px',
-    width: '100%',
-  };
+    width: '100%'
+  }
 
   const defaultCenter = {
     lat: 19.39958953857422,
-    lng: -98.93214416503906,
-  };
+    lng: -98.93214416503906
+  }
 
   const locations = [
     {
       name: 'Hergo Diseño e Instalación',
       location: {
         lat: 19.39958953857422,
-        lng: -98.93214416503906,
-      },
-    },
+        lng: -98.93214416503906
+      }
+    }
     // Add more locations as needed...
-  ];
+  ]
 
   return (
     <div>
-      <FormContacto/>
+      <FormContacto />
 
-      <LoadScript googleMapsApiKey="AIzaSyD55PeA9XTRDhdDU8NGEiPIS9ykRvyWnyY">
+      <LoadScript googleMapsApiKey='AIzaSyD55PeA9XTRDhdDU8NGEiPIS9ykRvyWnyY'>
         <GoogleMap
           mapContainerStyle={mapStyles}
           zoom={13}
@@ -43,7 +41,7 @@ const Contactos = () => {
                   <div>{item.name}</div>
                 </InfoWindow>
               </Marker>
-            );
+            )
           })}
         </GoogleMap>
       </LoadScript>

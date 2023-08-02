@@ -12,6 +12,7 @@ import { Route, Routes } from 'react-router-dom'
 import Inicio from '../components/pages/inicio/Inicio'
 import Contactos from '../components/pages/contacto/Contactos'
 import Nosotros from '../components/pages/nosotros/Nosotros'
+import '../layouts/layoutMain.scss'
 
 // import MenuAdminPartidos from '../components/Menu/MenuAdminPartidos'
 // import MenuHeader from '../components/Menu/MenuHeader'
@@ -22,20 +23,20 @@ export default function LayoutMain () {
   // Verifica si el usuario existe si no lo redirecciona al login
   // Si existe renderiza el Layout principal
   return (
-    <Layout style={{ minHeight: '100vh' }}>
+    <Layout style={{ minHeight: '100vh' }} id='Layout-main'>
       {/** Se importa el header y se le envía el logo correspondiente */}
       <Header history={history} />
-        <Layout className='layout'>
-          <Content className='content'>
-            {/** Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} /> */}
-            <Routes>
-              <Route path='hergoweb/' index element={<Inicio />} />
-              <Route path='hergoweb/contacto' element={<Contactos />} />
-              <Route path='hergoweb/nosotros' element={<Nosotros />} />
-              <Route path='hergoweb/services' element={<Services />} />
-            </Routes>
-          </Content>
-        </Layout>
+      <Layout className='layout'>
+        <Content className='content'>
+          {/** Contenido, se iteran las rutas para poder navegar entre ellas <LoadRoutes routes={routes} /> */}
+          <Routes>
+            <Route path='hergoweb/' index element={<Inicio />} />
+            <Route path='hergoweb/contacto' element={<Contactos />} />
+            <Route path='hergoweb/nosotros' element={<Nosotros />} />
+            <Route path='hergoweb/services' element={<Services />} />
+          </Routes>
+        </Content>
+      </Layout>
       {/** Footer con la versión del sistema */}
       <Footer version='Versión 1.0' anio='2022' />
     </Layout>

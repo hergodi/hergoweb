@@ -15,11 +15,14 @@ import { Col } from 'antd'
 const Inicio = () => {
   return (
     <>
-      <AwesomeSlider className='corrusel-react'>
-        <div data-src={c1} />
-        <div data-src={c2} />
-        <div data-src={c3} />
-      </AwesomeSlider>
+
+      <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ alignContent: 'center' }}>
+        <AwesomeSlider className='corrusel-react'>
+          <div data-src={c1} />
+          <div data-src={c2} />
+          <div data-src={c3} />
+        </AwesomeSlider>
+      </Col>
       <section id='seccion-inicio'>
         <div className='container-dad'>
           <h1 className='Seccion-titulos'>¡Bienvenido a nuestro sitio web especializado
