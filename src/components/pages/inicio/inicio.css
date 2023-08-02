@@ -12,31 +12,20 @@ body{
     border-radius: 50px;
 }
 
-.div-inicio{
-    height: auto;
-    box-sizing: border-box;
-    position: relative;
-    margin-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
-
 #seccion-inicio{
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    text-align: center;
-    justify-content: center;
 }
 
 .container-dad{
     width: 0;
     height: 0;
     margin-bottom: 50px;
+}
+
+#Row-center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .Seccion-titulos{
@@ -375,4 +364,20 @@ body{
 
 .number{
     position: relative;
+}
+
+/*Retocando style*/
+
+.container-dad{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center-text{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
