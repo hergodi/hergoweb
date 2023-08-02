@@ -13,6 +13,7 @@ const FormContacto = () => {
               {/* <div style={{ paddingTop: '20px', width: '100%' }} className='inpName'>
                 <h4 className='h-form'>¿Aún tienes dudas? Asesoría y Cotizaciones en 24 hrs.</h4>
   </div> */}
+
               <h4 className='h-form'>¿Aún tienes dudas? Asesoría y Cotizaciones en 24 hrs.</h4>
             </Col>
           </Row>
