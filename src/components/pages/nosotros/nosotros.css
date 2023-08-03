@@ -3,7 +3,6 @@
     padding: auto;
     max-width: 1000px;
     display: flex;
-    background-color: aqua;
     flex-direction: column;
 }
 
@@ -30,6 +29,7 @@
 .Nosotros-h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 #parrafoData{
@@ -38,9 +38,9 @@
 
 
 .width-img{
-    margin-top: 70%;
-    width: 100%;
-    height: 40%;
-    position: relative;
-    right: 100%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    position: static;
+    margin-left: 10%;
 }
