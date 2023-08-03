@@ -30,10 +30,10 @@ const Inicio = () => {
       <Row id='Row-center'>
         <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className='center-text' />
         <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className='center-text'>
-            <h1 className='Seccion-titulos'>¡Bienvenido a nuestro sitio web especializado
-              en construcción, diseño e
-              instalación de canceles y vidrios!
-            </h1>
+          <h1 className='Seccion-titulos'>¡Bienvenido a nuestro sitio web especializado
+            en construcción, diseño e
+            instalación de canceles y vidrios!
+          </h1>
         </Col>
         <Col xs={16} sm={16} md={16} lg={16} xl={16} xxl={16} className='center-text'>
           <p id='p-1'>
@@ -84,9 +84,7 @@ const Inicio = () => {
             ansiosos por colaborar contigo en tu próximo proyecto de canceles y vidrios.
           </p>
           <div className='bottom-Contactos'>
-            <Link to='hergoweb/contacto'>
-              <button className='button-contacto'>Contáctanos</button>
-            </Link>
+            <Link to='hergoweb/contacto' className='link-3'>Contacto</Link>
           </div>
         </div>
         <div className='img-section'>
