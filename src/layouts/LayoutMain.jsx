@@ -13,6 +13,7 @@ import Inicio from '../components/pages/inicio/Inicio'
 import Contactos from '../components/pages/contacto/Contactos'
 import Nosotros from '../components/pages/nosotros/Nosotros'
 import '../layouts/layoutMain.scss'
+import SectionContac from '../seccionContacto/SectionContac'
 
 // import MenuAdminPartidos from '../components/Menu/MenuAdminPartidos'
 // import MenuHeader from '../components/Menu/MenuHeader'
@@ -38,6 +39,7 @@ export default function LayoutMain () {
         </Content>
       </Layout>
       {/** Footer con la versión del sistema */}
+      <SectionContac />
       <Footer version='Versión 1.0' anio='2022' />
     </Layout>
   )
