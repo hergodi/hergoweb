@@ -44,3 +44,24 @@
     position: static;
     margin-left: 10%;
 }
+
+/*Acomodamos section*/
+
+.Fabrication{
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+}
+
+#Row-Us{
+    height: auto;
+}
+
+
+#img-us{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: 10px;
+}

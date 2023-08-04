@@ -8,8 +8,8 @@ const Nosotros = () => {
       <div id='containerNosotros'>
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={10}>
-              <h1 className='Nosotros-h1'>¡Bienvenido a Hergo Tu especialista en construcción, diseño e instalación de canceles y vidrios!</h1>
-            </Col>
+            <h1 className='Nosotros-h1'>¡Bienvenido a Hergo Tu especialista en construcción, diseño e instalación de canceles y vidrios!</h1>
+          </Col>
         </Row>
         <Row>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
@@ -20,6 +20,27 @@ const Nosotros = () => {
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
             <img src={c1} alt='' className='width-img' />
+          </Col>
+        </Row>
+      </div>
+      <div className='Fabrication'>
+        <Row id='Row-Us' style={{ textAlign: 'center', backgroundColor: 'blue' }}>
+          <h1 style={{ position: 'relative', left: '26%', fontSize: '40px', fontFamily: 'sans-serif', marginBottom: '40px' }}>
+            Nuestra dedicación a la calidad
+          </h1>
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} id='img-us'>
+            <img src={c1} alt='' style={{ width: '35%', marginBottom: '3%', position: 'relative', right: '28%', bottom: '5%' }} id='img' />
+          </Col>
+          <Col style={{ height: '0', width: 'auto', position: 'relative', left: '49%', bottom: '390px', fontSize: '20px', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+            <h2>Nuestra dedicación a la calidad</h2>
+            <p style={{ fontSize: '15px', width: '350px', position: 'relative', left: '10%', fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;' }}>y la precisión en cada detalle nos ha permitido ganar la confianza de nuestros clientes,
+              quienes nos eligen una y otra vez para sus proyectos de canceles y vidrios. Nuestro compromiso
+              con la satisfacción del cliente es inquebrantable y estamos orgullosos de decir que gran parte
+              de nuestro negocio proviene de recomendaciones de clientes satisfechos.
+              Además de nuestra experiencia en la construcción y diseño, también nos enorgullecemos de ofrecer
+              una amplia selección de materiales y acabados,
+              para que puedas personalizar cada proyecto y hacerlo verdaderamente único.
+            </p>
           </Col>
         </Row>
       </div>
