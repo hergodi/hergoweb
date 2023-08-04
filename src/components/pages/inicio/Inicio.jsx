@@ -80,7 +80,7 @@ const Inicio = () => {
           <h2 className='confianza'>
             ¡Confía en Hergo!
           </h2>
-          <p className='p-confianza'>para convertir tus sueños en realidad y crear ambientes que te enamoren! Estamos
+          <p className='p-confianza'>Para convertir tus sueños en realidad y crear ambientes que te enamoren! Estamos
             ansiosos por colaborar contigo en tu próximo proyecto de canceles y vidrios.
           </p>
           <div className='bottom-Contactos'>
