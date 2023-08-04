@@ -24,7 +24,7 @@ const Nosotros = () => {
         </Row>
       </div>
       <div className='Fabrication'>
-        <Row id='Row-Us' style={{ textAlign: 'center', backgroundColor: 'blue' }}>
+        <Row id='Row-Us' style={{ textAlign: 'center' }}>
           <h1 style={{ position: 'relative', left: '26%', fontSize: '40px', fontFamily: 'sans-serif', marginBottom: '40px' }}>
             Nuestra dedicación a la calidad
           </h1>
