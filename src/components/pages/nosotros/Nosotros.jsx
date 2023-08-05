@@ -8,7 +8,7 @@ const Nosotros = () => {
       <div id='containerNosotros'>
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={10}>
-            <h1 className='Nosotros-h1'>¡Bienvenido a Hergo Tu especialista en construcción, diseño e instalación de canceles y vidrios!</h1>
+            <h1 className='Nosotros-h1' style={{ fontSize: '35px' }}>¡Bienvenido a Hergo Tu especialista en construcción, diseño e instalación de canceles y vidrios!</h1>
           </Col>
         </Row>
         <Row>
@@ -24,12 +24,12 @@ const Nosotros = () => {
         </Row>
       </div>
       <div className='Fabrication'>
-        <Row id='Row-Us' style={{ textAlign: 'center' }}>
+        <Row id='Row-Us' style={{ position: 'relative' }}>
           <h1 style={{ position: 'relative', left: '26%', fontSize: '40px', fontFamily: 'sans-serif', marginBottom: '40px' }}>
             Nuestra dedicación a la calidad
           </h1>
           <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} id='img-us'>
-            <img src={N} alt='' style={{ width: '35%', marginBottom: '3%', position: 'relative', right: '28%', bottom: '5%' }} id='img' />
+            <img src={N} alt='' style={{ width: '35%', marginBottom: '3%', position: 'relative', left: '10%', bottom: '10px' }} id='img' />
           </Col>
           <Col style={{ height: '0', width: 'auto', position: 'relative', left: '49%', bottom: '390px', fontSize: '20px', justifyContent: 'center', alignItems: 'center', textAlign: 'justify' }}>
             <p style={{ fontSize: '15px', width: '350px', position: 'relative', left: '10%', fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;', marginTop: '20%' }}>y la precisión en cada detalle nos ha permitido ganar la confianza de nuestros clientes,
