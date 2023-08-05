@@ -339,13 +339,8 @@ body{
 }
 
 
-.Display-toLineUp{
-    margin: auto;
-    padding: auto;
+#Display-toLineUp{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 .Type{

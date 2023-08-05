@@ -1,6 +1,6 @@
 import { Col, Row } from 'antd'
-import c1 from '../../../assets/img/carrusel/Carrusel-1.jpg'
 import '../nosotros/nosotros.css'
+import N from '../../../assets/img/carrusel/Nosotros_2.jpg'
 
 const Nosotros = () => {
   return (
@@ -19,7 +19,7 @@ const Nosotros = () => {
             </p>
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-            <img src={c1} alt='' className='width-img' />
+            <img src={N} alt='' className='width-img' />
           </Col>
         </Row>
       </div>
@@ -29,11 +29,10 @@ const Nosotros = () => {
             Nuestra dedicación a la calidad
           </h1>
           <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} id='img-us'>
-            <img src={c1} alt='' style={{ width: '35%', marginBottom: '3%', position: 'relative', right: '28%', bottom: '5%' }} id='img' />
+            <img src={N} alt='' style={{ width: '35%', marginBottom: '3%', position: 'relative', right: '28%', bottom: '5%' }} id='img' />
           </Col>
-          <Col style={{ height: '0', width: 'auto', position: 'relative', left: '49%', bottom: '390px', fontSize: '20px', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-            <h2>Nuestra dedicación a la calidad</h2>
-            <p style={{ fontSize: '15px', width: '350px', position: 'relative', left: '10%', fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;' }}>y la precisión en cada detalle nos ha permitido ganar la confianza de nuestros clientes,
+          <Col style={{ height: '0', width: 'auto', position: 'relative', left: '49%', bottom: '390px', fontSize: '20px', justifyContent: 'center', alignItems: 'center', textAlign: 'justify' }}>
+            <p style={{ fontSize: '15px', width: '350px', position: 'relative', left: '10%', fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;', marginTop: '20%' }}>y la precisión en cada detalle nos ha permitido ganar la confianza de nuestros clientes,
               quienes nos eligen una y otra vez para sus proyectos de canceles y vidrios. Nuestro compromiso
               con la satisfacción del cliente es inquebrantable y estamos orgullosos de decir que gran parte
               de nuestro negocio proviene de recomendaciones de clientes satisfechos.
