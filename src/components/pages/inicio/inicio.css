@@ -6,10 +6,6 @@ body{
 .corrusel-react{
     margin-bottom: 100px;
     max-width: 50%;
-    position: relative;
-    left: 340px;
-    border: 5px;
-    border-radius: 50px;
 }
 
 #seccion-inicio{
@@ -53,9 +49,7 @@ body{
 }
 
 #section-2{
-    height: 200px;
     background-color: rgba(15, 15, 75, 0.818);
-    margin-bottom: 10px;
 }
 
 .text-2{
@@ -71,16 +65,6 @@ body{
     top: 10px;
 }
 
-.experiencia{
-    font-size: 30px;
-}
-
-.p-experiencia{
-    position: relative;
-    bottom: 30px;
-    font-size: 15px;
-}
-
 .text-3{
     font-family: 'Heebo', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
@@ -94,14 +78,6 @@ body{
     bottom: 190px;
 }
 
-.destacar{
-    font-size: 30px;
-}
-.p-destacar{
-    position: relative;
-    bottom: 20px;
-    font-size: 15px;
-}
 
 .unico-parrafo{
     font-family: 'Heebo', sans-serif;
@@ -116,10 +92,6 @@ body{
     bottom: 370px;
 }
 
-.parrafo-3{
-    position: relative;
-    font-size: 17px;
-}
 
 .ideas{
     font-family: 'Heebo', sans-serif;
@@ -134,14 +106,6 @@ body{
     bottom: 570px;
 }
 
-.ideas-h{
-    font-size: 18px;
-}
-
-.p-ideas{
-    position: relative;
-    font-size: 19px;
-}
 
 .text-4{
     align-items: center;
@@ -163,18 +127,12 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     width: 300px;
-    position: relative;
-    left: 50px;
     text-align: justify;
 }
 
 .img-section4{
-    margin-bottom: 10px;
     width: 300px;
     height: auto;
-    position: relative;
-    left: 800px;
-    bottom: 100px;
   }
 
 #section-3{
