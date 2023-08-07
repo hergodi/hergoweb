@@ -41,7 +41,7 @@ const SectionContac = () => {
               </div>
             </Col>
 
-            <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} style={{ height: '1px' }}>
               <div className='horario'>
                 <p>Lun-Vie: 09:00-17:00 hrs.</p>
               </div>
