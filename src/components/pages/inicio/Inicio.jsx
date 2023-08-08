@@ -82,7 +82,7 @@ const Inicio = () => {
           <p className='p-confianza' style={{ position: 'relative', left: '25%' }}>Para convertir tus sueños en realidad y crear ambientes que te enamoren! Estamos
             ansiosos por colaborar contigo en tu próximo proyecto de canceles y vidrios.
           </p>
-          <Link to='hergoweb/contacto' className='link-3'>Contacto</Link>
+          <Link href='contacto' to='hergoweb/contacto' className='link-3'>Contacto</Link>
         </Col>
         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ marginTop: '5%' }}>
           <img src={imgSecition} alt='' className='img-section4' />
