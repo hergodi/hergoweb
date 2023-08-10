@@ -2,6 +2,7 @@ import LogoHeader from './../../assets/img/logo_hergo.jpg'
 import { Layout, Row, Col } from 'antd' // Se importan los componentes de ant desig
 import './Header.scss'
 import { Link } from 'react-router-dom'
+import lineaMenu from './../../assets/img/lineaMenu.png'
 
 export default function Header () {
   // const {user,setUser} = useAuth();
@@ -11,8 +12,7 @@ export default function Header () {
     <Header className='header'>
       <Row>
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
-          <div className='menu-top'>
-            
+          <div className='menu-top' >
             <Row className='menu-top__ayuda'>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
                 <div className='menu-top__logo'>
@@ -22,16 +22,19 @@ export default function Header () {
                 </div>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} >
-                <Link to='hergoweb/' className='link-1'>Inicio</Link>
+                <Link to='hergoweb/' className='link-1'>
+                  Inicio
+                </Link>
+
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-                <Link to='hergoweb/nosotros' className='link-2'>Nosotros</Link>
+                <Link to='hergoweb/nosotros' className='link-1'>Nosotros</Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-                <Link to='hergoweb/contacto' className='link-3'>Contacto</Link>
+                <Link to='hergoweb/contacto' className='link-1'>Contacto</Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-                <Link to='hergoweb/services' className='link-4'>Servicios</Link>
+                <Link to='hergoweb/services' className='link-1'>Servicios</Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
                 <Row >
@@ -54,6 +57,11 @@ export default function Header () {
             </Row>
             
           </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
+          <img src={lineaMenu} className='linea-menu'></img>
         </Col>
       </Row>
     </Header>

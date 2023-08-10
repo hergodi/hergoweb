@@ -88,7 +88,7 @@ const Inicio = () => {
         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
           <Row>
             <Col>
-              <h2 className='confianza'>
+              <h2 className='Seccion-titulos'>
                 ¡Confía en Hergo!
               </h2>
             </Col>
