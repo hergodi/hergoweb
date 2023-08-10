@@ -28,7 +28,7 @@ const Contactos = () => {
     <div>
       <FormContacto />
 
-      <LoadScript googleMapsApiKey='AIzaSyD55PeA9XTRDhdDU8NGEiPIS9ykRvyWnyY'>
+      {/*<LoadScript googleMapsApiKey='AIzaSyD55PeA9XTRDhdDU8NGEiPIS9ykRvyWnyY'>
         <GoogleMap
           mapContainerStyle={mapStyles}
           zoom={13}
@@ -44,7 +44,7 @@ const Contactos = () => {
             )
           })}
         </GoogleMap>
-      </LoadScript>
+        </LoadScript>*/}
     </div>
   )
 }

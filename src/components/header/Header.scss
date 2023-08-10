@@ -13,7 +13,7 @@
     height: 100%;
     &__logo {
       svg {
-        height: 30px;
+        height: 60px;
       }
     }
     &__logo:hover {
@@ -30,8 +30,9 @@
       color: rgb(0, 0, 0);
       flex: 300 0 auto;
       font-size: 14px;
-      text-align: right;
-      width: 50px;
+      text-align: justify;
+      width: 100%;
+      position: relative;
       .btn-circle {
         height: 25px;
         width: 25px;
@@ -133,20 +134,47 @@
 
 .link-1{
   position: relative;
-  right: 10px;
+  font-size: 30px;
+  color:rgb(130, 123, 123);
+}
+
+.link-1:hover{
+  font-size: 30px;
+  color: rgba(52, 52, 108, 0.818);
 }
 
 .link-2{
   margin: 0;
   padding: 0;
+  font-size: 30px;
+  color:rgb(130, 123, 123);
+}
+
+.link-2:hover{
+  font-size: 30px;
+  color: rgba(52, 52, 108, 0.818);
 }
 
 .link-3{
   position: relative;
   left: 10px;
+  font-size: 30px;
+  color:rgb(130, 123, 123);
+}
+
+.link-3:hover{
+  font-size: 30px;
+  color: rgba(52, 52, 108, 0.818);
 }
 
 .link-4{
   position: relative;
   left: 18px;
+  font-size: 30px;
+  color:rgb(130, 123, 123);
+}
+
+.link-4:hover{
+  font-size: 30px;
+  color: rgba(52, 52, 108, 0.818);
 }

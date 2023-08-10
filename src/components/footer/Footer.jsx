@@ -9,7 +9,7 @@ export default function Footer () {
   return (
     <Footer className='footer'>
       <div className='footer__instituto'>
-        <img className='footer__logo' src={logoINE} alt='Logo' />
+        Diseñado por: YAYE Consultores
       </div>
       <div className='footer__area'>
         Protección de datos | Compatibilidad óptima con Google Chrome
