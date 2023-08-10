@@ -32,18 +32,18 @@ const SectionContac = () => {
           <Row>
             <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
               <div className='number'>
-                <a href='http://' target='__blank' style={{}}><p>55 7620 5492</p></a>
+                <a href='http://' target='__blank'><p style={{ marginBottom: '5px', marginTop: '5px' }}> 55 7620 5492</p></a>
               </div>
             </Col>
             <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
               <div className='email'>
-                <a href='http://'><p>hergo.ventas@outlook.com</p></a>
+                <a href='http://'><p style={{ marginBottom: '5px', marginTop: '5px' }}>hergo.ventas@outlook.com</p></a>
               </div>
             </Col>
 
             <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} style={{ height: '1px' }}>
               <div className='horario'>
-                <p>Lun-Vie: 09:00-17:00 hrs.</p>
+                <p style={{ marginBottom: '5px', marginTop: '5px' }}>Lun-Vie: 09:00-17:00 hrs.</p>
               </div>
             </Col>
           </Row>
