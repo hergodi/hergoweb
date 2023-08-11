@@ -32,12 +32,12 @@ const SectionContac = () => {
           <Row>
             <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
               <div className='number'>
-                <a href='http://' target='__blank'><p style={{ marginBottom: '5px', marginTop: '5px' }}> 55 7620 5492</p></a>
+                <a href='https://wa.me/525576205492' target='_blank' rel='noreferrer'><p style={{ marginBottom: '5px', marginTop: '5px' }}> 55 7620 5492</p></a>
               </div>
             </Col>
             <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
               <div className='email'>
-                <a href='http://'><p style={{ marginBottom: '5px', marginTop: '5px' }}>hergo.ventas@outlook.com</p></a>
+                <a href='https://mail.google.com/mail/?view=cm&to=hergo.ventas@outlook.com' target='_blank' rel='noreferrer'><p style={{ marginBottom: '5px', marginTop: '5px' }}>hergo.ventas@outlook.com</p></a>
               </div>
             </Col>
 
