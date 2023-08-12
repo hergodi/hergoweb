@@ -99,7 +99,14 @@ const Services = () => {
           <p className='textParagraph'>Ya sea que necesites asesoramiento estratégico, soluciones tecnológicas avanzadas o servicios de consultoría, Hergo es tu socio integral para el crecimiento empresarial.</p>
         </Col>
       </Row>
-
+      <Row style={{ }}>
+        <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ fontSize: '20px', textAlign: 'center' }}>
+          <p>Explora nuestros servicios y descubre cómo Hergo puede hacer realidad tus ideas de diseño y mejorar tus espacios con canceles y
+            vidrios de primera calidad. Contáctanos hoy mismo para obtener más información y comenzar a crear ambientes
+            impresionantes juntos.
+          </p>
+        </Col>
+      </Row>
     </>
   )
 }
