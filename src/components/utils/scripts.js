@@ -1,24 +1,43 @@
-import {URL_HOST} from './constanst'
+import { USER_MAIL,PASSWD_MAIL } from './constanst';
 
-var location = undefined;
+export function enviaCorreo(formData){
+    const express = require('express');
+    const bodyParser = require('body-parser');
+    const nodemailer = require('nodemailer');
 
-export function visitas() {
-    const api = URL_HOST;
-    const prodApi = URL_HOST;
+    const app = express();
+    app.use(bodyParser.json());
 
-    if (api !== prodApi)
-        return;
+    app.post({SERVER_MAIL}, (req, res) => {
+        const { name, email, subject, message } = req.body;
 
-    if (location === window.location.href)
-        return;
+        const transporter = nodemailer.createTransport({
+        service: 'Outlook',
+        auth: {
+            user: {USER_MAIL},
+            pass: {PASSWD_MAIL},
+        },
+        });
 
-    location = window.location.href;
+        const mailOptions = {
+        from: formData.email,
+        to: {USER_MAIL},
+        subject: formData.subject,
+        text: 'Nombre: ${formData.name}\nCorreo Electrónico: ${formData.email}\n\n${formData.message}',
+        };
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){
-        window.dataLayer.push(arguments);
-    }
+        transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.error('Error al enviar el correo:', error);
+            res.status(500).json({ message: 'Error al enviar el correo' });
+        } else {
+            console.log('Correo enviado:', info.response);
+            res.status(200).json({ message: 'Correo enviado con éxito' });
+        }
+        });
+    });
 
-    gtag('js', new Date());
-    gtag('config', 'UA-176716852-30'); 
+    app.listen(3001, () => {
+        console.log('Servidor escuchando en el puerto 3001');
+    });
 }
