@@ -116,17 +116,17 @@ a.linkVolver:hover .anticon {
 }
 
 button.primary {
-  background-color: #6200EE;
+  background-color: #21618C ;
   color: white;
   border-radius: 23px;
 }
 button.primary:hover {
-  background-color: #6200EE !important;
-  color: white;
+  background-color: #5DADE2 !important;
+  color: rgb(142, 141, 141);
 }
 
 button.primary:focus {
-  background-color: #6200EE !important;
+  background-color: #21618C !important;
   color: white;
 }
 
