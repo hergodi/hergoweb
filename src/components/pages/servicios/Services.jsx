@@ -38,14 +38,26 @@ const Services = () => {
       </Row>
 
       <Row style={{ justifyContent: 'center', textAlign: 'center' }}>
-        <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph' style={{ }}>
-          <p className='textParagraph'>Con años de experiencia en la industria, hemos perfeccionado nuestra artesanía y técnicas para ofrecerte resultados excepcionales.</p>
+        <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
+          <h1>Diseño Personalizado</h1>
+          <p className='textParagraph'>Trabajamos contigo para dar vida a tus ideas y crear diseños de canceles y vidrios que se adapten perfectamente
+            a tu estilo y necesidades. Desde elegantes mamparas de vidrio hasta divisorias de ambientes únicas, nuestro equipo de diseñadores se asegurará
+            de que cada detalle refleje tu visión y personalidad.
+          </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <p className='textParagraph'>Con años de experiencia en la industria, hemos perfeccionado nuestra artesanía y técnicas para ofrecerte resultados excepcionales.</p>
+          <h1>Fabricación de Alta Calidad</h1>
+          <p className='textParagraph'>Utilizamos materiales de primera calidad y técnicas avanzadas en la fabricación de nuestros productos.
+            Cada cancel y vidrio se crea con precisión y atención al detalle para garantizar durabilidad y resistencia. Nuestros expertos artesanos
+            se dedican a ofrecerte productos que sean tanto hermosos como funcionales.
+          </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <p className='textParagraph'>Con años de experiencia en la industria, hemos perfeccionado nuestra artesanía y técnicas para ofrecerte resultados excepcionales.</p>
+          <h1>Instalación Profesional</h1>
+          <p className='textParagraph'>Nuestro equipo altamente capacitado se encarga de la instalación meticulosa de cada cancel y vidrio.
+            Nos aseguramos de que cada pieza se coloque perfectamente y cumpla con los más altos estándares de seguridad. Tu satisfacción y
+            tranquilidad son nuestra prioridad mientras transformamos tus espacios.
+          </p>
         </Col>
       </Row>
 
@@ -69,13 +81,22 @@ const Services = () => {
 
       <Row style={{ justifyContent: 'center', textAlign: 'center' }}>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <p className='textParagraph'>Con años de experiencia en la industria, hemos perfeccionado nuestra artesanía y técnicas para ofrecerte resultados excepcionales.</p>
+          <h1>Mantenimiento y Reparación</h1>
+          <p className='textParagraph'>Además de nuestros servicios de diseño y fabricación, también ofrecemos mantenimiento y reparación de canceles y vidrios.
+            Si alguna vez necesitas asistencia o una actualización en el futuro, estaremos aquí para brindarte un servicio
+            confiable y profesional.
+          </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <p className='textParagraph'>Con años de experiencia en la industria, hemos perfeccionado nuestra artesanía y técnicas para ofrecerte resultados excepcionales.</p>
+          <h1>Compromiso con la Excelencia</h1>
+          <p className='textParagraph'>En Hergo, nos enorgullece nuestro compromiso con la excelencia en cada proyecto que emprendemos. Nos esforzamos
+            por superar tus expectativas en términos de calidad, diseño y servicio al cliente. Tu satisfacción es nuestra recompensa y estamos ansiosos
+            por colaborar contigo en la creación de espacios hermosos y funcionales.
+          </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <p className='textParagraph'>Con años de experiencia en la industria, hemos perfeccionado nuestra artesanía y técnicas para ofrecerte resultados excepcionales.</p>
+          <h1>Diversidad de Servicios</h1>
+          <p className='textParagraph'>Ya sea que necesites asesoramiento estratégico, soluciones tecnológicas avanzadas o servicios de consultoría, Hergo es tu socio integral para el crecimiento empresarial.</p>
         </Col>
       </Row>
 
