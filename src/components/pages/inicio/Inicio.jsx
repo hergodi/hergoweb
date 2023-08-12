@@ -5,6 +5,9 @@ import imgSecition from '../../../assets/img/IMG_SECTION_4.jpg'
 import c1 from '../../../assets/img/carrusel/Carrusel-1.jpg'
 import c2 from '../../../assets/img/carrusel/Carrusel-2.jpg'
 import c3 from '../../../assets/img/carrusel/Carrusel-3.jpg'
+import c4 from '../../../assets/img/carrusel/Carrusel-7.jpg'
+import c5 from '../../../assets/img/carrusel/Carrusel-8.jpg'
+import c6 from '../../../assets/img/carrusel/Carrusel-9.jpg'
 import M1 from '../../../assets/img/logos_materiales/Cuprum-logo.png'
 import M2 from '../../../assets/img/logos_materiales/vitro-logo.png'
 import M3 from '../../../assets/img/logos_materiales/saint-logo.png'
@@ -30,6 +33,9 @@ const Inicio = () => {
             <div data-src={c1} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             <div data-src={c2} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             <div data-src={c3} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+            <div data-src={c4} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+            <div data-src={c5} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+            <div data-src={c6} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
           </AwesomeSlider>
         </Col>
       </Row>

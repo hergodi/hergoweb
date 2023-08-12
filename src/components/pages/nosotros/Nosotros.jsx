@@ -1,6 +1,7 @@
 import { Col, Row } from 'antd'
 import '../nosotros/nosotros.css'
 import N from '../../../assets/img/carrusel/Nosotros_2.jpg'
+import N2 from '../../../assets/img/Nosotros-4.jpg'
 
 const Nosotros = () => {
   return (
@@ -34,7 +35,7 @@ const Nosotros = () => {
         </Row>
         <Row style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', display: 'flex' }}>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-            <img src={N} alt='' style={{ width: '100%' }} />
+            <img src={N2} alt='' style={{ width: '75%' }} />
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '30px' }}>
             <p id='parrafoCalidad'>
