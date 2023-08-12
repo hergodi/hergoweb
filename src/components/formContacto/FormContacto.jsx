@@ -35,6 +35,7 @@ const FormContacto = () => {
       const mensajeWhatsApp = `Hola, mi nombre es ${formData.name} y me gustaría una cotización con las siguientes características: ${formData.message} \n Teléfono: ${formData.phone} \n Email: ${formData.email}`;
       const link = `https://api.whatsapp.com/send?phone=525576205492&text=${encodeURIComponent(mensajeWhatsApp)}`;
       window.open(link, '_blank');
+      form.resetFields();
     } catch (error) {
       console.error('Error al enviar el mensaje:', error);
     }
@@ -58,7 +59,8 @@ const FormContacto = () => {
               <Form.Item
                 name='name' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
-                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' }
+                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
+                  {required:true}
                 ]}
               >
                 <Input
@@ -77,7 +79,8 @@ const FormContacto = () => {
               <Form.Item
                 name='email' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
-                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' }
+                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
+                  {required:true}
                 ]}
               >
                 <Input
@@ -95,7 +98,8 @@ const FormContacto = () => {
               <Form.Item
                 name='phone' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
-                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' }
+                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
+                  {required:true}
                 ]}
               >
                 <Input
@@ -114,7 +118,8 @@ const FormContacto = () => {
               <Form.Item
                 name='asunto' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
-                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' }
+                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
+                  {required:true}
                 ]}
               >
                 <Input
@@ -130,7 +135,10 @@ const FormContacto = () => {
           </Row>
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} className='hidden-sm hidden-xs bs-reset mt-login-5-bsfix'>
-              <Form.Item name='Message'>
+              <Form.Item name='Message' rules={[
+                  { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
+                  {required:true}
+                ]}>
                 <TextArea 
                   autoSize={{ minRows: 12, maxRows: 20 }} 
                   className='obs-style' 
