@@ -1,0 +1,13 @@
+.paragraph{
+    padding: 20px;
+}
+
+.textTitle{
+    font-size: 25px;
+    color: rgba(15, 15, 75, 0.818);
+}
+
+.textParagraph{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}

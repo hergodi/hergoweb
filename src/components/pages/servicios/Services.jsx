@@ -8,14 +8,14 @@ const Services = () => {
       <Row className='imgs2-hover' style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
           <img src={S} alt='' style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center', width: '100%', position: 'relative', top: '30px' }} />
-          <Row>
-            <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ marginTop: '5%' }}>
-              <h1 style={{ fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif', fontSize: '35px' }}>Nuestros Servicios</h1>
-              <p style={{ fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif', fontSize: '20px' }}>En Hergo, estamos comprometidos en brindarte soluciones de alta calidad y diseño personalizado en el campo de la construcción, diseño e instalación de canceles y vidrios. Nuestra amplia gama de servicios
-                está diseñada para transformar tus espacios en lugares elegantes, modernos y funcionales.
-              </p>
-            </Col>
-          </Row>
+        </Col>
+      </Row>
+
+      <Row style={{ textAlign: 'center' }}>
+        <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ marginTop: '5%', width: '100%' }}>
+          <p style={{ fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif', fontSize: '25px', color: 'rgba(15, 15, 75,0.818)' }}>En Hergo, estamos comprometidos en brindarte soluciones de alta calidad y diseño personalizado en el campo de la construcción, diseño e instalación de canceles y vidrios. Nuestra amplia gama de servicios
+            está diseñada para transformar tus espacios en lugares elegantes, modernos y funcionales.
+          </p>
         </Col>
       </Row>
 
@@ -39,21 +39,21 @@ const Services = () => {
 
       <Row style={{ justifyContent: 'center', textAlign: 'center' }}>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <h1>Diseño Personalizado</h1>
+          <h1 className='textTitle'>Diseño Personalizado</h1>
           <p className='textParagraph'>Trabajamos contigo para dar vida a tus ideas y crear diseños de canceles y vidrios que se adapten perfectamente
             a tu estilo y necesidades. Desde elegantes mamparas de vidrio hasta divisorias de ambientes únicas, nuestro equipo de diseñadores se asegurará
             de que cada detalle refleje tu visión y personalidad.
           </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <h1>Fabricación de Alta Calidad</h1>
+          <h1 className='textTitle'>Fabricación de Alta Calidad</h1>
           <p className='textParagraph'>Utilizamos materiales de primera calidad y técnicas avanzadas en la fabricación de nuestros productos.
             Cada cancel y vidrio se crea con precisión y atención al detalle para garantizar durabilidad y resistencia. Nuestros expertos artesanos
             se dedican a ofrecerte productos que sean tanto hermosos como funcionales.
           </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <h1>Instalación Profesional</h1>
+          <h1 className='textTitle'>Instalación Profesional</h1>
           <p className='textParagraph'>Nuestro equipo altamente capacitado se encarga de la instalación meticulosa de cada cancel y vidrio.
             Nos aseguramos de que cada pieza se coloque perfectamente y cumpla con los más altos estándares de seguridad. Tu satisfacción y
             tranquilidad son nuestra prioridad mientras transformamos tus espacios.
@@ -81,27 +81,27 @@ const Services = () => {
 
       <Row style={{ justifyContent: 'center', textAlign: 'center' }}>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <h1>Mantenimiento y Reparación</h1>
+          <h1 className='textTitle'>Mantenimiento y Reparación</h1>
           <p className='textParagraph'>Además de nuestros servicios de diseño y fabricación, también ofrecemos mantenimiento y reparación de canceles y vidrios.
             Si alguna vez necesitas asistencia o una actualización en el futuro, estaremos aquí para brindarte un servicio
             confiable y profesional.
           </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <h1>Compromiso con la Excelencia</h1>
+          <h1 className='textTitle'>Compromiso con la Excelencia</h1>
           <p className='textParagraph'>En Hergo, nos enorgullece nuestro compromiso con la excelencia en cada proyecto que emprendemos. Nos esforzamos
             por superar tus expectativas en términos de calidad, diseño y servicio al cliente. Tu satisfacción es nuestra recompensa y estamos ansiosos
             por colaborar contigo en la creación de espacios hermosos y funcionales.
           </p>
         </Col>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8} className='paragraph'>
-          <h1>Diversidad de Servicios</h1>
+          <h1 className='textTitle'>Diversidad de Servicios</h1>
           <p className='textParagraph'>Ya sea que necesites asesoramiento estratégico, soluciones tecnológicas avanzadas o servicios de consultoría, Hergo es tu socio integral para el crecimiento empresarial.</p>
         </Col>
       </Row>
-      <Row style={{ }}>
+      <Row>
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ fontSize: '20px', textAlign: 'center' }}>
-          <p>Explora nuestros servicios y descubre cómo Hergo puede hacer realidad tus ideas de diseño y mejorar tus espacios con canceles y
+          <p className='textParagraph'>Explora nuestros servicios y descubre cómo Hergo puede hacer realidad tus ideas de diseño y mejorar tus espacios con canceles y
             vidrios de primera calidad. Contáctanos hoy mismo para obtener más información y comenzar a crear ambientes
             impresionantes juntos.
           </p>

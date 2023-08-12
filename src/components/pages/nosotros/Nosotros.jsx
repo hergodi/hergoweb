@@ -23,35 +23,32 @@ const Nosotros = () => {
           </Col>
         </Row>
       </div>
-      <div className='Fabrication'>
-        <Row id='Row-Us' style={{ justifyContent: 'center', alignItems: 'center' }}>
-          <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
-            <Row>
-              <Col>
-                <h1 style={{ position: 'relative', left: '26%', fontSize: '40px', fontFamily: 'sans-serif', marginBottom: '40px' }}>
-                  Nuestra dedicación a la calidad
-                </h1>
-              </Col>
-            </Row>
-            <Row>
-              <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-                <img src={N} alt='' style={{ width: '55%', marginBottom: '3%', position: 'relative', left: '10%', bottom: '10px' }} id='img' />
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ }}>
-                <p id='parrafoCalidad'>
-                  y la precisión en cada detalle nos ha permitido ganar la confianza de nuestros clientes,
-                  quienes nos eligen una y otra vez para sus proyectos de canceles y vidrios. Nuestro compromiso
-                  con la satisfacción del cliente es inquebrantable y estamos orgullosos de decir que gran parte
-                  de nuestro negocio proviene de recomendaciones de clientes satisfechos.
-                  Además de nuestra experiencia en la construcción y diseño, también nos enorgullecemos de ofrecer
-                  una amplia selección de materiales y acabados,
-                  para que puedas personalizar cada proyecto y hacerlo verdaderamente único.
-                </p>
-              </Col>
-            </Row>
+
+      <Row id='Row-Us' style={{ justifyContent: 'center', alignItems: 'center' }}>
+        <Row>
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+            <h1 className='Nosotros-h1' style={{ fontSize: '35px' }}>
+              Nuestra dedicación a la calidad
+            </h1>
           </Col>
         </Row>
-      </div>
+        <Row style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', display: 'flex' }}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
+            <img src={N} alt='' style={{ width: '100%' }} />
+          </Col>
+          <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '30px' }}>
+            <p id='parrafoCalidad'>
+              y la precisión en cada detalle nos ha permitido ganar la confianza de nuestros clientes,
+              quienes nos eligen una y otra vez para sus proyectos de canceles y vidrios. Nuestro compromiso
+              con la satisfacción del cliente es inquebrantable y estamos orgullosos de decir que gran parte
+              de nuestro negocio proviene de recomendaciones de clientes satisfechos.
+              Además de nuestra experiencia en la construcción y diseño, también nos enorgullecemos de ofrecer
+              una amplia selección de materiales y acabados,
+              para que puedas personalizar cada proyecto y hacerlo verdaderamente único.
+            </p>
+          </Col>
+        </Row>
+      </Row>
     </>
 
   )
