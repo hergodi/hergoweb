@@ -20,7 +20,7 @@ const Nosotros = () => {
             </p>
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-            <img src={N} alt='' className='width-img' />
+            <img src={N2} alt='' className='width-img' />
           </Col>
         </Row>
       </div>
@@ -35,7 +35,7 @@ const Nosotros = () => {
         </Row>
         <Row style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', display: 'flex' }}>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-            <img src={N2} alt='' style={{ width: '75%' }} />
+            <img src={N} alt='' style={{ width: '75%' }} />
           </Col>
           <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '30px' }}>
             <p id='parrafoCalidad'>
