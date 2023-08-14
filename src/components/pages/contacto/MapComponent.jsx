@@ -16,13 +16,8 @@ function MapComponent () {
     })
   }, [])
   return (
-    <a
-      href={`https://www.google.com/maps/search/?api=1&query= ${19.39958953857422},${-98.93214416503906}`}
-      target='_blank'
-      rel='noopener noreferrer'
-    >
-      <div id='map' style={{ height: '400px', width: '100%' }} />
-    </a>
+    <div id='map' style={{ height: '400px', width: '100%' }} />
+
   )
 }
 
