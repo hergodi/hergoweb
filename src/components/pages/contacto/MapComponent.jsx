@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import { Marker } from '@react-google-maps/api'
 
 function MapComponent () {
   useEffect(() => {
@@ -13,11 +12,18 @@ function MapComponent () {
     const Marker = new window.google.maps.Marker({
       position: ubicacion,
       map,
-      title: 'Ubicación Específica'
+      title: 'HERGO Diseño E Instalación'
     })
   }, [])
-
-  return <div id='map' style={{ height: '400px', width: '100%' }} />
+  return (
+    <a
+      href={`https://www.google.com/maps/search/?api=1&query= ${19.39958953857422},${-98.93214416503906}`}
+      target='_blank'
+      rel='noopener noreferrer'
+    >
+      <div id='map' style={{ height: '400px', width: '100%' }} />
+    </a>
+  )
 }
 
 export default MapComponent
