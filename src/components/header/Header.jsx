@@ -21,22 +21,21 @@ export default function Header () {
                   </Link>
                 </div>
               </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%', padding: '10px' }}>
                 <Link to='hergoweb/' className='link-1'>
                   Inicio
                 </Link>
-
               </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%', padding: '10px' }}>
                 <Link to='hergoweb/nosotros' className='link-1'>Nosotros</Link>
               </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%', padding: '10px' }}>
                 <Link to='hergoweb/contacto' className='link-1'>Contacto</Link>
               </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%', padding: '10px' }}>
                 <Link to='hergoweb/services' className='link-1'>Servicios</Link>
               </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <Row>
                   <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                     <a href='https://wa.me/525576205492' target='__blank'>
