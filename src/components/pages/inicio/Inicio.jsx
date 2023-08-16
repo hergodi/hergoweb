@@ -113,16 +113,25 @@ const Inicio = () => {
         </Col>
       </Row>
       <FormContacto />
-      <section id='photo'>
-        <div id='txtHover'>
+
+      <Row id='photo' style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+        <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
           <h4 className='materiales'>FABRICAMOS CON LOS MEJORES MATERIALES</h4>
-        </div>
-        <div id='imgsHover'>
-          <div className='img-1'> <img src={M1} alt='' className='width-materiales-logo' /></div>
-          <div className='img-1'> <img src={M2} alt='' className='width-materiales-logo' /></div>
-          <div className='img-1'> <img src={M3} alt='' className='width-materiales-logo' /></div>
-        </div>
-      </section>
+        </Col>
+      </Row>
+
+      <Row id='imgsHover' style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
+        <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
+          <img src={M1} alt='' className='width-materiales-logo' />
+        </Col>
+        <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
+          <img src={M2} alt='' className='width-materiales-logo' />
+        </Col>
+        <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
+          <img src={M3} alt='' className='width-materiales-logo' />
+        </Col>
+      </Row>
+
     </div>
   )
 }

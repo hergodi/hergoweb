@@ -208,23 +208,9 @@ body{
     bottom: 140px;
 }
 
-#photo{
-    height: auto;
-    width: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-}
 
 #imgsHover{
-    position: relative;
-    right: 10px;
-    display: flex;
     transition:all .9s ease;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: auto;
     margin-bottom: 20px;
 }
 
@@ -271,15 +257,8 @@ body{
 }
 
 .materiales{
-    margin-top: 20px;
-    margin-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    width: auto;
-    height: auto;
-    position: relative;
-    display: flex;
-    width: 100%;
     color: rgba(15, 15, 75, 0.818);
 }
 
