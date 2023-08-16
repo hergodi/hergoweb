@@ -1,45 +1,44 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import '../../components/pages/inicio/inicio.css'
 import { Input, Form, Col, Row, Button } from 'antd'
 import axios from 'axios'
-import {USER_MAIL, PASSWD_MAIL, SERVER_MAIL} from './../utils/constanst'
-import {enviaCorreo} from './../utils/scripts'
-
+import { USER_MAIL, PASSWD_MAIL, SERVER_MAIL } from './../utils/constanst'
+import { enviaCorreo } from './../utils/scripts'
 
 const FormContacto = () => {
-  const { TextArea } = Input;
-  const { Item } = Form;
-  const [form] = Form.useForm();
+  const { TextArea } = Input
+  const { Item } = Form
+  const [form] = Form.useForm()
 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone:'',
+    phone: '',
     subject: '',
-    message: '',
-  });
+    message: ''
+  })
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target
     setFormData((prevData) => ({
       ...prevData,
-      [name]: value,
-    }));
-  };
+      [name]: value
+    }))
+  }
 
   const handleSubmit = (e) => {
-    //e.preventDefault();
+    // e.preventDefault();
 
     // Enviar los datos del formulario al servidor aquí
     try {
-      const mensajeWhatsApp = `Hola, mi nombre es ${formData.name} y me gustaría una cotización con las siguientes características: ${formData.message} \n Teléfono: ${formData.phone} \n Email: ${formData.email}`;
-      const link = `https://api.whatsapp.com/send?phone=525576205492&text=${encodeURIComponent(mensajeWhatsApp)}`;
-      window.open(link, '_blank');
-      form.resetFields();
+      const mensajeWhatsApp = `Hola, mi nombre es ${formData.name} y me gustaría una cotización con las siguientes características: ${formData.message} \n Teléfono: ${formData.phone} \n Email: ${formData.email}`
+      const link = `https://api.whatsapp.com/send?phone=525576205492&text=${encodeURIComponent(mensajeWhatsApp)}`
+      window.open(link, '_blank')
+      form.resetFields()
     } catch (error) {
-      console.error('Error al enviar el mensaje:', error);
+      console.error('Error al enviar el mensaje:', error)
     }
-  };
+  }
 
   return (
     <>
@@ -60,7 +59,7 @@ const FormContacto = () => {
                 name='name' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
                   { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
-                  {required:true}
+                  { required: true }
                 ]}
               >
                 <Input
@@ -68,7 +67,7 @@ const FormContacto = () => {
                   placeholder='Nombre'
                   name='name'
                   maxLength={51}
-                  value={formData.name} 
+                  value={formData.name}
                   onChange={handleInputChange}
                 />
               </Form.Item>
@@ -80,7 +79,7 @@ const FormContacto = () => {
                 name='email' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
                   { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
-                  {required:true}
+                  { required: true }
                 ]}
               >
                 <Input
@@ -88,7 +87,7 @@ const FormContacto = () => {
                   placeholder='Email'
                   name='email'
                   maxLength={51}
-                  value={formData.email} 
+                  value={formData.email}
                   onChange={handleInputChange}
                 />
               </Form.Item>
@@ -99,7 +98,7 @@ const FormContacto = () => {
                 name='phone' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
                   { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
-                  {required:true}
+                  { required: true }
                 ]}
               >
                 <Input
@@ -107,7 +106,7 @@ const FormContacto = () => {
                   placeholder='Telefono'
                   name='phone'
                   maxLength={51}
-                  value={formData.phone} 
+                  value={formData.phone}
                   onChange={handleInputChange}
                 />
               </Form.Item>
@@ -119,7 +118,7 @@ const FormContacto = () => {
                 name='asunto' rules={[
                   { max: 50, message: 'Número de caracteres permitidos: 50' },
                   { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
-                  {required:true}
+                  { required: true }
                 ]}
               >
                 <Input
@@ -127,7 +126,7 @@ const FormContacto = () => {
                   placeholder='Asunto'
                   name='subject'
                   maxLength={51}
-                  value={formData.subject} 
+                  value={formData.subject}
                   onChange={handleInputChange}
                 />
               </Form.Item>
@@ -135,23 +134,26 @@ const FormContacto = () => {
           </Row>
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} className='hidden-sm hidden-xs bs-reset mt-login-5-bsfix'>
-              <Form.Item name='Message' rules={[
+              <Form.Item
+                name='Message' rules={[
                   { pattern: /^[^<>]*$/, message: 'Dato inválido, ingresa nuevamente.' },
-                  {required:true}
-                ]}>
-                <TextArea 
-                  autoSize={{ minRows: 12, maxRows: 20 }} 
-                  className='obs-style' 
+                  { required: true }
+                ]}
+              >
+                <TextArea
+                  autoSize={{ minRows: 12, maxRows: 20 }}
+                  className='obs-style'
                   placeholder='Escriba su Mensaje aqui...'
                   name='message'
-                  value={formData.message} 
-                  onChange={handleInputChange} />
+                  value={formData.message}
+                  onChange={handleInputChange}
+                />
               </Form.Item>
             </Col>
           </Row>
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} className='hidden-sm hidden-xs bs-reset mt-login-5-bsfix'>
-              <Button className="btn primary" type="primary" htmlType="submit">
+              <Button className='btn primary' type='primary' htmlType='submit'>
                 Enviar
               </Button>
             </Col>
