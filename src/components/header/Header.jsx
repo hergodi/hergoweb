@@ -16,24 +16,24 @@ export default function Header () {
             <Row className='menu-top__ayuda'>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
                 <div className='menu-top__logo'>
-                  <Link to='hergoweb/'>
+                  <Link to='/'>
                     <img src={LogoHeader} alt='logo ADMIN' className='logo' />
                   </Link>
                 </div>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='hergoweb/' className='link-1'>
+                <Link to='/' className='link-1'>
                   Inicio
                 </Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='hergoweb/nosotros' className='link-1'>Nosotros</Link>
+                <Link to='/nosotros' className='link-1'>Nosotros</Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='hergoweb/contacto' className='link-1'>Contacto</Link>
+                <Link to='/contacto' className='link-1'>Contacto</Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='hergoweb/services' className='link-1'>Servicios</Link>
+                <Link to='/services' className='link-1'>Servicios</Link>
               </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <Row>
