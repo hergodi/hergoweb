@@ -5,7 +5,6 @@ body{
 
 .corrusel-react{
     margin-bottom: 100px;
-    max-width: 50%;
 }
 
 #seccion-inicio{
@@ -129,8 +128,7 @@ body{
 }
 
 .img-section4{
-    width: 60%;
-    height: auto;
+    width: 100%;
   }
 
 #section-3{
@@ -253,7 +251,6 @@ body{
     overflow: hidden;
     transition:  transform 1s;
     margin: auto;
-    padding: 20px;
 }
 
 .materiales{
@@ -329,3 +326,61 @@ body{
     text-align: center;
     font-size: x-large;
 }
+
+/* @mediaQuery */
+
+@media (max-width:574px){
+    .Seccion-titulos{
+      font-size: 20px;
+    }
+    .experiencia{
+        font-size: 20px;
+    }
+    .p-experiencia{
+        font-size: 10px;
+        width: 100%;
+    }
+    #p-1{
+        font-size: 15px;
+    }
+    #form{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Responsive-img{
+        width: '300px';
+        justify-content: center; 
+        text-align: center;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+    .p-confianza{
+        font-size: 15px;
+    }
+    #imgsHover{
+        display: flex;
+        padding: 0;
+    }
+    .width-materiales-logo{
+        width: 100px;
+        height: 100px;
+        display: flex;
+    }
+    /* section "Destacar" */
+    #section-2{
+        align-items: center;
+        height: auto;
+    }
+    .destacar{
+        font-size: 15px;
+    }
+    .classComprtida{
+        font-size: 8px;
+        margin: 0;
+    }
+    .classComprtidaParrafos{
+        font-size: 7px;
+        text-align: start;
+    }
+   }

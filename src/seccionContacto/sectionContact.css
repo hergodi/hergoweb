@@ -1,0 +1,14 @@
+@media (max-width:574px) {
+    .Type{
+        font-size: 10px;
+    }
+    #Calendario{
+        width: 30px;
+    }
+    #Gmail{
+        width: 30px;
+    }
+    #whatsapp{
+        width: 30px;
+    }
+}
