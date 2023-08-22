@@ -46,9 +46,6 @@ const FormContacto = () => {
         <Form form={form} className='login-form' layout='vertical' onFinish={handleSubmit}>
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ alignContent: 'center' }}>
-              {/* <div style={{ paddingTop: '20px', width: '100%' }} className='inpName'>
-                <h4 className='h-form'>¿Aún tienes dudas? Asesoría y Cotizaciones en 24 hrs.</h4>
-  </div> */}
 
               <h4 className='h-form'>¿Aún tienes dudas? Asesoría y Cotizaciones en 24 hrs.</h4>
             </Col>

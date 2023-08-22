@@ -1,5 +1,8 @@
 .paragraph{
     padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .textTitle{
@@ -10,4 +13,29 @@
 .textParagraph{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+}
+
+#styleText{
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+    font-size: 25px;
+    color: rgba(15, 15, 75,0.818)
+}
+
+/* MediasQuery*/
+
+@media (max-width:574px){
+     #styleText{
+        font-size: 10px;
+        font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+        color: rgba(15, 15, 75,0.818);
+    }
+    .textTitle{
+        font-size: 12px;
+    }
+    .textParagraph{
+        font-size: 10px;
+    }
+    .paragraph{
+        padding: 0px;
+    }
 }
