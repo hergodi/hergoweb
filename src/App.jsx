@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom'
 import 'moment/locale/es'
-import LayoutMain from './layouts/LayoutMain'
+import LayoutMain from './layouts/LayoutMain.jsx'
 
 function App () {
   return (

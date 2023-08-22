@@ -3,26 +3,21 @@ import { Layout } from 'antd'
 // import { refreshAccessTokenApi, getAccessTokenApi } from "../api/auth";
 
 // Componentes
-import Header from './../components/header/Header'
-import Footer from './../components/footer/Footer'
-import Services from '../components/pages/servicios/Services'
+import Header from './../components/header/Header.jsx'
+import Footer from './../components/footer/Footer.jsx'
+import Services from './../components/pages/servicios/Services.jsx'
 
 // Logos
 import { Route, Routes } from 'react-router-dom'
-import Inicio from '../components/pages/inicio/Inicio'
-import Contactos from '../components/pages/contacto/Contactos'
-import Nosotros from '../components/pages/nosotros/Nosotros'
-import '../layouts/layoutMain.scss'
-import SectionContac from '../seccionContacto/SectionContac'
-
-// import MenuAdminPartidos from '../components/Menu/MenuAdminPartidos'
-// import MenuHeader from '../components/Menu/MenuHeader'
+import Inicio from '../components/pages/inicio/Inicio.jsx'
+import Contactos from '../components/pages/contacto/Contactos.jsx'
+import Nosotros from '../components/pages/nosotros/Nosotros.jsx'
+import './../layouts/layoutMain.scss'
+import SectionContac from '../seccionContacto/SectionContac.jsx'
 
 export default function LayoutMain () {
   const { Content } = Layout // Se obtiene el componente hijo de Layout
 
-  // Verifica si el usuario existe si no lo redirecciona al login
-  // Si existe renderiza el Layout principal
   return (
     <Layout style={{ minHeight: '100vh' }} id='Layout-main'>
       {/** Se importa el header y se le envía el logo correspondiente */}

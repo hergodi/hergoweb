@@ -1,6 +1,6 @@
 import { Row, Col } from 'antd'
-import S from '../../../assets/img/carrusel/Services.jpg'
-import '../servicios/hover.css'
+import S from './../../../assets/img/carrusel/Services.jpg'
+import './../servicios/hover.css'
 
 const Services = () => {
   return (

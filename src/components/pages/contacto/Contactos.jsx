@@ -1,6 +1,6 @@
-import FormContacto from '../../formContacto/FormContacto'
+import FormContacto from '../../formContacto/FormContacto.jsx'
 import React from 'react'
-import MapComponent from './MapComponent'
+import MapComponent from './MapComponent.jsx'
 
 const Contactos = () => {
   return (

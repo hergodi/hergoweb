@@ -1,7 +1,7 @@
 import { Col, Row } from 'antd'
-import '../nosotros/nosotros.css'
-import N from '../../../assets/img/carrusel/Nosotros_2.jpg'
-import N2 from '../../../assets/img/logo_hergo.jpg'
+import './../nosotros/nosotros.css'
+import N from './../../../assets/img/carrusel/Nosotros_2.jpg'
+import N2 from './../../../assets/img/logo_hergo.jpg'
 
 const Nosotros = () => {
   return (

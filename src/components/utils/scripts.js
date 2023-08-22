@@ -1,4 +1,4 @@
-import { USER_MAIL,PASSWD_MAIL } from './constanst';
+import { USER_MAIL,PASSWD_MAIL } from './constanst.js';
 
 export function enviaCorreo(formData){
     const express = require('express');
