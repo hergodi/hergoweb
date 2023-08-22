@@ -4,16 +4,16 @@ import '../servicios/hover.css'
 
 const Services = () => {
   return (
-    <>
+    <div>
       <Row className='imgs2-hover' style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
         <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12} style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
-          <img src={S} alt='' style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center', width: '100%', position: 'relative', top: '30px' }} />
+          <img src={S} id='Service-image' alt='' style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center', width: '100%' }} />
         </Col>
       </Row>
 
       <Row style={{ textAlign: 'center' }}>
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ marginTop: '5%', width: '100%' }}>
-          <p style={{ fontFamily: 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif', fontSize: '25px', color: 'rgba(15, 15, 75,0.818)' }}>En Hergo, estamos comprometidos en brindarte soluciones de alta calidad y diseño personalizado en el campo de la construcción, diseño e instalación de canceles y vidrios. Nuestra amplia gama de servicios
+          <p className='services-responsive' id='styleText'>En Hergo, estamos comprometidos en brindarte soluciones de alta calidad y diseño personalizado en el campo de la construcción, diseño e instalación de canceles y vidrios. Nuestra amplia gama de servicios
             está diseñada para transformar tus espacios en lugares elegantes, modernos y funcionales.
           </p>
         </Col>
@@ -21,7 +21,7 @@ const Services = () => {
 
       <Row id='Row__Hover' style={{ justifyContent: 'center', textAlign: 'center', marginTop: '30px' }}>
         <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
-          <svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='currentColor' className='bi bi-buildings' viewBox='0 0 16 16'>
+          <svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='currentColor' className='bi bi-buildings' id='Edificio' viewBox='0 0 16 16'>
             <path d='M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z' />
             <path d='M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z' />
           </svg>
@@ -111,7 +111,7 @@ const Services = () => {
           </p>
         </Col>
       </Row>
-    </>
+    </div>
   )
 }
 

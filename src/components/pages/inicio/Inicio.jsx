@@ -88,7 +88,6 @@ const Inicio = () => {
           </p>
         </Col>
       </Row>
-
       {/* mejorando el "Confia en Hergo" */}
 
       <div id='ToDoList' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '4%' }}>

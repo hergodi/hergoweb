@@ -367,20 +367,20 @@ body{
         height: 100px;
         display: flex;
     }
-    /* section "Destacar" */
-    #section-2{
-        align-items: center;
-        height: auto;
-    }
-    .destacar{
-        font-size: 15px;
-    }
+   }
+
+   @media (min-width:316px) and (max-width: 574px){
     .classComprtida{
-        font-size: 8px;
+        font-size: 7px;
         margin: 0;
     }
     .classComprtidaParrafos{
         font-size: 7px;
         text-align: start;
+    }
+    .classComprtida_col{
+        text-align: 'center';
+        justify-content: 'center';
+         align-items: 'center';
     }
    }
