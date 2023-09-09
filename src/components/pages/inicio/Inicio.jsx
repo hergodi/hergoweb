@@ -11,6 +11,7 @@ import c6 from './../../../assets/img/carrusel/Carrusel-9.jpg'
 import M1 from './../../../assets/img/logos_materiales/Cuprum-logo.png'
 import M2 from './../../../assets/img/logos_materiales/vitro-logo.png'
 import M3 from './../../../assets/img/logos_materiales/saint-logo.png'
+import M4 from './../../../assets/img/logos_materiales/extrusiones_logo.jpg'
 import FormContacto from './../../formContacto/FormContacto.jsx'
 import { Col, Row } from 'antd'
 
@@ -124,6 +125,9 @@ const Inicio = () => {
         </Col>
         <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6} style={{ padding: '30px', minWidth: '400px' }}>
           <img src={M3} alt='' className='width-materiales-logo' />
+        </Col>
+        <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6} style={{ padding: '30px', minWidth: '400px' }}>
+          <img src={M4} alt='' className='width-materiales-logo' />
         </Col>
       </Row>
 
