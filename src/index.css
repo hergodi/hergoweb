@@ -1145,3 +1145,12 @@ ul.lista li:before {
     width: 100%;
   }
 }
+
+.awssld__content > img, .awssld__content > video {
+  -o-object-fit: cover;
+  object-fit: contain;
+  height: 100%;
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+}
