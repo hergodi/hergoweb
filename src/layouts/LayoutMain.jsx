@@ -12,6 +12,9 @@ import { Route, Routes } from 'react-router-dom'
 import Inicio from '../components/pages/inicio/Inicio.jsx'
 import Contactos from '../components/pages/contacto/Contactos.jsx'
 import Nosotros from '../components/pages/nosotros/Nosotros.jsx'
+import Residencial from '../components/pages/residencial/Residencial.jsx'
+import Fachadas from '../components/pages/fachadas/Fachadas.jsx'
+import Domos from '../components/pages/domos/Domos.jsx'
 import './../layouts/layoutMain.scss'
 import SectionContac from '../seccionContacto/SectionContac.jsx'
 
@@ -30,6 +33,9 @@ export default function LayoutMain () {
             <Route path='/contacto' element={<Contactos />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/services' element={<Services />} />
+            <Route path='/residencial' element={<Residencial />} />
+            <Route path='/fachadas' element={<Fachadas />} />
+            <Route path='/domos' element={<Domos />} />
           </Routes>
         </Content>
       </Layout>

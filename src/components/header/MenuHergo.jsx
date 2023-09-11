@@ -31,8 +31,9 @@ export default function MenuHergo (props) {
 
             <SubMenu title='Galería de proyectos' className='link-1'>
               <MenuItemGroup title="">
-                <Menu.Item key="setting:1">Option 1</Menu.Item>
-                <Menu.Item key="setting:2">Option 2</Menu.Item>
+                <Menu.Item key="setting:1"><Link to='/residencial' className='link-1'>Residencial</Link></Menu.Item>
+                <Menu.Item key="setting:2"><Link to='/fachadas' className='link-1'>Fachadas</Link></Menu.Item>
+                <Menu.Item key="setting:3"><Link to='/domos' className='link-1'>Domos y pérgolas</Link></Menu.Item>
               </MenuItemGroup>
             </SubMenu>            
         </Menu>
