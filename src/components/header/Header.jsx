@@ -3,7 +3,7 @@ import { Layout, Row, Col } from 'antd' // Se importan los componentes de ant de
 import './Header.scss'
 import { Link } from 'react-router-dom'
 import lineaMenu from './../../assets/img/lineaMenu.png'
-
+import MenuHergo from './MenuHergo.jsx'
 export default function Header () {
   // const {user,setUser} = useAuth();
   const { Header } = Layout // Se importa el header del componente del Layout
@@ -14,27 +14,18 @@ export default function Header () {
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24}>
           <div className='menu-top'>
             <Row className='menu-top__ayuda'>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <div className='menu-top__logo'>
                   <Link to='/'>
                     <img src={LogoHeader} alt='logo ADMIN' className='logo' />
                   </Link>
                 </div>
               </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='/' className='link-1'>
-                  Inicio
-                </Link>
-              </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='/nosotros' className='link-1'>Nosotros</Link>
-              </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='/services' className='link-1'>Servicios</Link>
-              </Col>
-              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative', right: '5%' }}>
-                <Link to='/contacto' className='link-1'>Contacto</Link>
-              </Col>              
+              <Col xs={14} sm={14} md={14} lg={14} xl={14} xxl={14} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+                <div className='menu-top__logo'>
+                  <MenuHergo/>
+                </div>                
+              </Col>            
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <Row>
                   <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
@@ -54,7 +45,6 @@ export default function Header () {
                 </Row>
               </Col>
             </Row>
-
           </div>
         </Col>
       </Row>

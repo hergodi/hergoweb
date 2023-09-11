@@ -2,6 +2,7 @@ import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 import './../inicio/inicio.css'
 import imgSecition from './../../../assets/img/IMG_SECTION_4.jpg'
+import c0 from './../../../assets/img/carrusel/Carrusel-0.jpeg'
 import c1 from './../../../assets/img/carrusel/Carrusel-1.jpg'
 import c2 from './../../../assets/img/carrusel/Carrusel-2.jpg'
 import c3 from './../../../assets/img/carrusel/Carrusel-3.jpg'
@@ -31,6 +32,7 @@ const Inicio = () => {
       <Row style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', position: 'relative', left: '17%', width: '65%' }}>
         <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
           <AwesomeSlider className='corrusel-react' style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', width: '100%' }}>
+            <div data-src={c0} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             <div data-src={c1} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             <div data-src={c2} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             <div data-src={c3} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
