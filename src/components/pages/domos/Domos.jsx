@@ -29,11 +29,10 @@ export default function Domos  ()  {
         <Row style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', position: 'relative', left: '17%', width: '65%' }}>
             <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
             <AwesomeSlider className='corrusel-react' style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', width: '100%' }}>
-                <div data-src={F11} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F4} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F3} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F1} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F2} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
-                <div data-src={F3} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
-                <div data-src={F4} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F5} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F6} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F7} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
@@ -41,6 +40,7 @@ export default function Domos  ()  {
                 <div data-src={F9} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F10} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F12} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F11} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             </AwesomeSlider>
             </Col>
         </Row>

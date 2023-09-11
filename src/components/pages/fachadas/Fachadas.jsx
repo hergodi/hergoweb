@@ -16,6 +16,12 @@ import F10 from './../../../assets/img/fachadas/fachada10.jpg'
 import F11 from './../../../assets/img/fachadas/fachada11.jpg'
 import F12 from './../../../assets/img/fachadas/fachada12.jpg'
 import F13 from './../../../assets/img/fachadas/fachada13.jpg'
+import F14 from './../../../assets/img/fachadas/fachada14.jpeg'
+import F15 from './../../../assets/img/fachadas/fachada15.jpeg'
+import F16 from './../../../assets/img/fachadas/fachada16.jpeg'
+import F17 from './../../../assets/img/fachadas/fachada17.jpeg'
+import F18 from './../../../assets/img/fachadas/fachada18.jpeg'
+import F19 from './../../../assets/img/fachadas/fachada19.jpeg'
 
 export default function Fachadas  ()  {
   return (
@@ -43,6 +49,12 @@ export default function Fachadas  ()  {
                 <div data-src={F11} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F12} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
                 <div data-src={F13} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F14} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F15} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F16} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F17} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F18} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
+                <div data-src={F19} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }} />
             </AwesomeSlider>
             </Col>
         </Row>
