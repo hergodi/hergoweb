@@ -22,10 +22,10 @@ export default function Header () {
                 </div>
               </Col>
               <Col xs={14} sm={14} md={14} lg={14} xl={14} xxl={14} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-                <div className='menu-top__logo'>
-                  <MenuHergo/>
-                </div>                
-              </Col>            
+                <div className='menu-top__logo-Hw'>
+                  <MenuHergo />
+                </div>
+              </Col>
               <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <Row>
                   <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>

@@ -1,6 +1,5 @@
 .ant-menu-verificacion {
   background: #F3EEF6 0% 0% no-repeat padding-box;
-  padding: 20px 0px !important;
   align-content: 'center';
   text-align:'center';
   place-content: space-between;
@@ -12,7 +11,7 @@
 
 .ant-menu-verificacion-header {
   background: #F3EEF6 ;
-  padding: 20px 0px !important;
+  padding: 20px 0px 0px;
   border-bottom: 0px;
   align-content: 'center';
   text-align:'center';
@@ -55,7 +54,22 @@
   .ant-menu-verificacion {
     width: auto;
     padding-top: 10% !important;
-    
+  }
+  #link__1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1px 0px 0px;
+  }
+  .ant-menu-verificacion-header{
+    padding: 0px 0px 0px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 467px){
+  .ant-menu-verificacion-header{
+    padding: 0px 0px 0px;
   }
 }
 

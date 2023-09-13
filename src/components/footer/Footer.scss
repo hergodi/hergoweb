@@ -80,3 +80,20 @@
     }
   }
 }
+
+@media (min-width: 360px) and (max-width: 467px){
+  .footer__instituto{
+    font-size: 7px;
+  }
+  .footer__area{
+    position: relative;
+    bottom: 10px;
+    font-size: 8px;
+    padding: 0;
+  }
+  .footer__version{
+    font-size: 8px;
+    position: relative;
+    bottom: 8px;
+  }
+}

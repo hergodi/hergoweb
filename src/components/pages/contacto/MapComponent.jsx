@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { GoogleMap, Marker } from '@react-google-maps/api'
 import { Wrapper } from '@googlemaps/react-wrapper'
 
